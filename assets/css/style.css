@@ -11284,13 +11284,17 @@ Login CSS
   height: 100vh;
   
   display: inline-flex;
-}
+}   /* changes2 */
 .column1, .column2 {
   float: left;
   width: 50%;
   padding: 10px;
+  margin-top: -5%;
   height: 300px; /* Should be removed. Only for demonstration */
+  margin-bottom: 30%;
 }
+
+/* changes2 end */
 .row:after {
   content: "";
   display: table;
@@ -12972,6 +12976,3 @@ Go Top CSS
   margin-top: -3px;
 }
 /*# sourceMappingURL=style.css.map */
-.banner-courses-category{
-  margin: 0px 40px 20px 40px;
-}
