@@ -1,12 +1,14 @@
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: blanchedalmond;
 }
-.myAccount-navigation ul li:nth-child(3):hover .dropdown-content{
+
+.myAccount-navigation ul li:nth-child(3):hover .dropdown-content {
     display: block;
 }
-.myAccount-navigation ul li a span{
+
+.myAccount-navigation ul li a span {
     font-size: 18px;
     position: absolute;
     left: 25px;
