@@ -2673,12 +2673,18 @@ Main Banner CSS
   background-color: #0eb582;
   color: #ffffff;
 }
-
+ /*-- changes3 */
 .banner-courses-category {
   text-align: center;
   padding-left: 15px;
+  padding-bottom: 25px;
+  width: 50%;
+  position: relative;;
+  left: 50%;
+  
+ 
 }
-
+/*-- changes3 end */
 .banner-courses-category ul {
   padding-left: 0;
   list-style-type: none;
@@ -2690,6 +2696,7 @@ Main Banner CSS
   margin-left: -8px;
   margin-right: -8px;
   margin-bottom: -16px;
+ 
 }
 
 .banner-courses-category ul li {
@@ -11499,7 +11506,7 @@ Register CSS
 }
 
 .register-image img {
-  display: block;
+  display: inline-block;
 }
 
 .register-content {

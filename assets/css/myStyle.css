@@ -1,0 +1,20 @@
+
+
+.course-search{
+	width: 400px;
+	position: relative;
+	right: 130px;
+}
+
+.global{
+	border-radius: 0px;
+	width: 280px;
+	position: relative;
+	bottom: 60px;
+	left: 280px;
+}
+
+
+.inSameLine{
+	display: inline-block;
+}
