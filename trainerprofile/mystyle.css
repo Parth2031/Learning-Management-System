@@ -1,3 +1,5 @@
+
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -5,6 +7,9 @@
 }
 
 .myAccount-navigation ul li:nth-child(3):hover .dropdown-content {
+    display: block;
+}
+.myAccount-navigation ul li:nth-child(1):hover .dropdown-content {
     display: block;
 }
 

@@ -32,18 +32,48 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
+         <!-- Required meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="au theme template">
+        <meta name="author" content="Hau Nguyen">
+        <meta name="keywords" content="au theme template">
+
+        <!-- Title Page-->
+        <title>Dashboard</title>
+
+        <!-- Fontfaces CSS-->
+        <link href="css/font-face.css" rel="stylesheet" media="all">
+        <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+        <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+        <!-- Bootstrap CSS-->
+        <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+        <!-- Vendor CSS-->
+        <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+        <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+        <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+        <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+        <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+        <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+        <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
 
         <link rel="stylesheet" href="mystyle.css">
 
-        <title>Raque - Education & LMS HTML Template</title>
-
-        <link rel="stylesheet" href="mystyle.css">
+       
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
-        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+       
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+       <title>Raque - Education & LMS HTML Template</title>
     </head>
 
     <body>
@@ -573,9 +603,16 @@
             <div class="container">
                 <div class="myAccount-navigation">
                     <ul>
-                        <li><a href="my-account.html"><i class='bx bxs-dashboard'></i> Dashboard</a></li>
+                         <li><a href="./courses.html" class="active"><span class="bx bxs-dashboard"></span> Dashboard</a>
+                            <div class="dropdown-content">
+                                <a href="allcourses.html">Courses</a>
+                                <a href="transactions.html">transactions</a>
+                                <a href="users.html">users</a>
+                                
+                            </div>
+                        </li>
                         <li><a href="orders.html"><i class='bx bx-cart'></i> Orders</a></li>
-                        <li><a href="courses.html" class="active"><span class="material-icons">library_books</span> Courses</a>
+                        <li><a href="courses.html"><span class="material-icons">library_books</span> Courses</a>
                             <div class="dropdown-content">
                                 <a href="./allcourses.html">All Courses</a>
                                 <a href="./quiz.html">Quiz</a>
@@ -588,8 +625,100 @@
                     </ul>
                 </div>
 
+<!--blocks-->
 
-               
+
+               <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="overview-wrap">
+                                    <h2 class="title-1">overview</h2>
+                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                        <i class="zmdi zmdi-plus"></i>add item</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-t-25">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-ungroup"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>10368</h2>
+                                                <span> Total Listed Course Count</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart1"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c2">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="fas fa-th-list"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>388</h2>
+                                                <span>Listed Courses Category</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart2"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c3">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="fas fa-plug"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>1,086</h2>
+                                                <span>Active Courses</span>
+                                                <h2>086</h2>
+                                                <span>InActive Courses</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c4">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="fas fa-globe"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h2>60,386</h2>
+                                                <span>Country Wise Course Count</span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart4"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+
+<!--blacks-->
+
 
                 <div class="myAccount-content">
                     <div class="downloads-table table-responsive">
@@ -598,6 +727,7 @@
                                 <tr>
                                     <th>Add</th>
                                     <th>Edit</th>
+                                    <th>status</th>
                                     <th>View</th>
                                     <th>Delete</th>
                                 </tr>
@@ -606,30 +736,36 @@
                                 <tr>
                                     <td><a href="#">Novel Bunch</a></td>
                                     <td>April 15, 2020</td>
+                                    <td>active</td>
                                     <td><a href="#" class="downloads-button">Click Here</a></td>
                                     <td><a href="#" class="downloads-button">Delete</a></td>
+
                                 </tr>
                                 <tr>
                                     <td><a href="#">Book Chicks</a></td>
                                     <td>Never</td>
+                                    <td>inactive</td>
                                     <td><a href="#" class="downloads-button">Click Here</a></td>
                                     <td><a href="#" class="downloads-button">Delete</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">Book Divas</a></td>
                                     <td>April 16, 2020</td>
+                                    <td>active</td>
                                     <td><a href="#" class="downloads-button">Click Here</a></td>
                                     <td><a href="#" class="downloads-button">Delete</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">Book Smart</a></td>
                                     <td>April 17, 2020</td>
+                                    <td>inactive</td>
                                     <td><a href="#" class="downloads-button">Click Here</a></td>
                                     <td><a href="#" class="downloads-button">Delete</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">Book Broads</a></td>
                                     <td>Never</td>
+                                    <td>active</td>
                                     <td><a href="#" class="downloads-button">Click Here</a></td>
                                     <td><a href="#" class="downloads-button">Delete</a></td>
                                 </tr>
@@ -774,6 +910,30 @@
         <script src="assets/js/raque-map.js"></script>
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
+        <!-- Jquery JS-->
+        <script src="vendor/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap JS-->
+        <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+        <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+        <!-- Vendor JS       -->
+        <script src="vendor/slick/slick.min.js">
+        </script>
+        <script src="vendor/wow/wow.min.js"></script>
+        <script src="vendor/animsition/animsition.min.js"></script>
+        <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+        </script>
+        <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendor/counter-up/jquery.counterup.min.js">
+        </script>
+        <script src="vendor/circle-progress/circle-progress.min.js"></script>
+        <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+        <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+        <script src="vendor/select2/select2.min.js">
+        </script>
+         <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
     </body>
 
 <!-- Mirrored from templates.envytheme.com/raque/default/downloads.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jun 2020 21:18:55 GMT -->
