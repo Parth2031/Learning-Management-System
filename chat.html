@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zxx">
     
-<!-- Mirrored from templates.envytheme.com/raque/default/my-account.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jun 2020 21:18:47 GMT -->
+<!-- Mirrored from templates.envytheme.com/raque/default/edit-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jun 2020 21:18:55 GMT -->
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -32,8 +32,6 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <link rel="stylesheet" href="assets/css/myStyle.css">
-
         <title>Raque - Education & LMS HTML Template</title>
         <link rel="stylesheet" href="assets/css/mystyles.css">
 
@@ -42,8 +40,6 @@
         <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
     </head>
 
     <body>
@@ -570,58 +566,25 @@
         <!-- Start My Account Area -->
         <section class="my-account-area ptb-100">
             <div class="container">
-                <div class="myAccount-profile">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-5">
-                            <div class="profile-image">
-                                <img src="assets/img/team/1.jpg" alt="image">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8 col-md-7">
-                            <div class="profile-content">
-                                <h3>James Anderson</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque officiis maxime suscipit expedita obcaecati nulla in ducimus.</p>
-
-                                <ul class="contact-info">
-                                    <li><i class='bx bx-envelope'></i> <a href="#">hello@jamesanderson.com</a></li>
-                                    <li><i class='bx bx-phone'></i> <a href="#">+502 464 674</a></li>
-                                    <li><i class='bx bx-world'></i> <a href="#" target="_blank">www.jamesanderson.com</a></li>
-                                </ul>
-                                <ul class="social">
-                                    <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-pinterest-alt'></i></a></li>
-                                </ul>
-
-                                <a href="#" class="myAccount-logout">Logout</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="myAccount-navigation">
                     <ul>
                         <li><a href="./courses.html"><span class="bx bxs-dashboard"></span> Dashboard</a>
                             <div class="dropdown-content">
                                 <a href="allcourses.html">Courses</a>
-                                <a href="quiz.html">transactions</a>
+                                <a href="transactions.html">transactions</a>
                                 <a href="users.html">users</a>
                                 
                             </div>
                         </li>
-                        <li><a href="./orders.html"><i class='bx bx-cart'></i> Orders</a></li>
-                        <li><a href="./courses.html"><span class="material-icons">library_books</span> Courses</a>
+                        <li><a href="orders.html"><i class='bx bx-cart'></i> Orders</a></li>
+                        <li><a href="courses.html"><span class="material-icons">library_books</span> Courses</a>
                             <div class="dropdown-content">
-                                <a href="allcourses.html">All Courses</a>
-                                <a href="quiz.html">Quiz</a>
-                                <a href="assignment.html">Assignments</a>
-                                <a href="onlineexam.html">Online Exam</a>
-                            </div>
-                        </li>
-                        <li><a href="chat.html"><span class="material-icons">chat</span> Chat</a></li>
+                                <a href="courses.html">All Courses</a>
+                                <a href="#">Quiz</a>
+                                <a href="#">Assignments</a>
+                                <a href="#">Online Exam</a>
+                            </div></li>
+                        <li><a href="chat.html" class="active"><span class="material-icons">chat</span> Chat</a></li>
                         <li><a href="edit-account.html"><i class='bx bx-edit'></i> Account Details</a></li>
                         <li><a href="tax-tool.html"><i class='bx bx-edit'></i>Tax Tool</a></li>
                         <li><a href="#"><i class='bx bx-log-out'></i> Logout</a></li>
@@ -629,68 +592,7 @@
                 </div>
 
                 <div class="myAccount-content">
-                    <p>Hello <strong>James Anderson</strong> (not <strong>James Anderson</strong>? <a href="#">Log out</a>)</p>
-                    <p>From your account dashboard you can view your <a href="#">recent orders</a>, manage your <a href="#">shipping and billing addresses</a>, and <a href="#">edit your password and account details</a>.</p>
-
-                    <h3>Recent Orders</h3>
-                    <div class="recent-orders-table table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Order</th>
-                                    <th>Date</th>
-                                    <th>Status</th>
-                                    <th>Total</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>#074145O5</td>
-                                    <td>October 18, 2019</td>
-                                    <td>Completed</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>#074145O6</td>
-                                    <td>October 18, 2019</td>
-                                    <td>On Hold</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>#074145O7</td>
-                                    <td>October 18, 2019</td>
-                                    <td>Completed</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>#074145O5</td>
-                                    <td>October 18, 2019</td>
-                                    <td>Completed</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>#074145O6</td>
-                                    <td>October 18, 2019</td>
-                                    <td>On Hold</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>#074145O7</td>
-                                    <td>October 18, 2019</td>
-                                    <td>Completed</td>
-                                    <td>$49.00 for 1 item</td>
-                                    <td><a href="#" class="view-button">View</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                    
             </div>
         </section>
         <!-- End My Account Area -->
@@ -830,5 +732,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from templates.envytheme.com/raque/default/my-account.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jun 2020 21:18:49 GMT -->
+<!-- Mirrored from templates.envytheme.com/raque/default/edit-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jun 2020 21:18:55 GMT -->
 </html>

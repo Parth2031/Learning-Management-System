@@ -34,7 +34,13 @@
 
         <title>Raque - Education & LMS HTML Template</title>
 
+        <link rel="stylesheet" href="assets/css/mystyles.css">
+
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
 
     <body>
@@ -564,11 +570,25 @@
             <div class="container">
                 <div class="myAccount-navigation">
                     <ul>
-                        <li><a href="my-account.html"><i class='bx bxs-dashboard'></i> Dashboard</a></li>
-                        <li><a href="orders.html" class="active"><i class='bx bx-cart'></i> Orders</a></li>
-                        <li><a href="downloads.html"><i class='bx bx-download'></i> Downloads</a></li>
-                        <li><a href="edit-address.html"><i class='bx bx-home-alt'></i> Addresses</a></li>
+                        <li><a href="./courses.html"><span class="bx bxs-dashboard"></span> Dashboard</a>
+                            <div class="dropdown-content">
+                                <a href="allcourses.html">Courses</a>
+                                <a href="transactions.html">transactions</a>
+                                <a href="users.html">users</a>
+                                
+                            </div>
+                        </li>
+                        <li><a href="orders.html"  class="active"><i class='bx bx-cart'></i> Orders</a></li>
+                        <li><a href="courses.html"><span class="material-icons">library_books</span> Courses</a>
+                            <div class="dropdown-content">
+                                <a href="courses.html">All Courses</a>
+                                <a href="#">Quiz</a>
+                                <a href="#">Assignments</a>
+                                <a href="#">Online Exam</a>
+                            </div></li>
+                        <li><a href="chat.html"><span class="material-icons">chat</span> Chat</a></li>
                         <li><a href="edit-account.html"><i class='bx bx-edit'></i> Account Details</a></li>
+                        <li><a href="tax-tool.html"><i class='bx bx-edit'></i>Tax Tool</a></li>
                         <li><a href="#"><i class='bx bx-log-out'></i> Logout</a></li>
                     </ul>
                 </div>
