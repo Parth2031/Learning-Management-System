@@ -1942,21 +1942,21 @@ Main Banner CSS
   position: relative;
   z-index: 1;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-banner.item-bg1 {
-  backgroundimage: url(../img/main-banner5.jpg);
+  background-image: url(../img/main-banner5.jpg);
 }
 
 .main-banner.item-bg2 {
-  backgroundimage: url(../img/main-banner4.jpg);
+  background-image: url(../img/main-banner4.jpg);
 }
 
 .main-banner.item-bg3 {
-  backgroundimage: url(../img/main-banner3.jpg);
+  background-image: url(../img/main-banner3.jpg);
 }
 
 .main-banner-content {
@@ -2093,10 +2093,10 @@ Main Banner CSS
   position: relative;
   z-index: 1;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
-  backgroundimage: url(../img/main-banner4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/main-banner4.jpg);
 }
 
 .banner-content {
@@ -2312,10 +2312,10 @@ Main Banner CSS
   position: relative;
   z-index: 1;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
-  backgroundimage: url(../img/main-banner3.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/main-banner3.jpg);
 }
 
 .hero-banner.bg-white {
@@ -2323,7 +2323,7 @@ Main Banner CSS
   padding-top: 50px;
   padding-bottom: 0;
   background-color: #ffffff;
-  backgroundimage: unset !important;
+  background-image: unset !important;
 }
 
 .hero-banner-content {
@@ -3064,10 +3064,10 @@ Boxes CSS
 
 .single-boxes-item.bg-image {
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundimage: url(../img/mission-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/mission-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .single-boxes-item.bg-image h3 {
@@ -3387,7 +3387,7 @@ Courses Categories CSS
 }
 
 .courses-categories-area.bg-image {
-  backgroundimage: url(../img/pattern.jpg);
+  background-image: url(../img/pattern.jpg);
 }
 
 .single-categories-courses-box {
@@ -3498,9 +3498,9 @@ Courses Categories CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .single-categories-courses-item .icon {
@@ -3602,35 +3602,35 @@ Courses Categories CSS
 }
 
 .single-categories-courses-item.bg1 {
-  backgroundimage: url(../img/categories/1.jpg);
+  background-image: url(../img/categories/1.jpg);
 }
 
 .single-categories-courses-item.bg2 {
-  backgroundimage: url(../img/categories/2.jpg);
+  background-image: url(../img/categories/2.jpg);
 }
 
 .single-categories-courses-item.bg3 {
-  backgroundimage: url(../img/categories/3.jpg);
+  background-image: url(../img/categories/3.jpg);
 }
 
 .single-categories-courses-item.bg4 {
-  backgroundimage: url(../img/categories/4.jpg);
+  background-image: url(../img/categories/4.jpg);
 }
 
 .single-categories-courses-item.bg5 {
-  backgroundimage: url(../img/categories/5.jpg);
+  background-image: url(../img/categories/5.jpg);
 }
 
 .single-categories-courses-item.bg6 {
-  backgroundimage: url(../img/categories/6.jpg);
+  background-image: url(../img/categories/6.jpg);
 }
 
 .single-categories-courses-item.bg7 {
-  backgroundimage: url(../img/categories/7.jpg);
+  background-image: url(../img/categories/7.jpg);
 }
 
 .single-categories-courses-item.bg8 {
-  backgroundimage: url(../img/categories/8.jpg);
+  background-image: url(../img/categories/8.jpg);
 }
 
 .single-categories-courses-item:hover, .single-categories-courses-item:focus {
@@ -4037,10 +4037,10 @@ Offer CSS
   position: relative;
   z-index: 1;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundimage: url(../img/offer-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/offer-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .offer-area .section-title .sub-title {
@@ -4249,10 +4249,10 @@ Become Instructor & Partner CSS
   position: relative;
   z-index: 1;
   padding: 100px;
-  backgroundimage: url(../img/pattern.png);
-  backgroundposition: center center;
-  backgroundsize: contain;
-  backgroundrepeat: repeat;
+  background-image: url(../img/pattern.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .become-instructor-partner-content h2 {
@@ -4272,7 +4272,7 @@ Become Instructor & Partner CSS
 
 .become-instructor-partner-content.bg-color {
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundimage: unset !important;
+  background-image: unset !important;
 }
 
 .become-instructor-partner-content.bg-color h2 {
@@ -4313,26 +4313,26 @@ Become Instructor & Partner CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  backgroundimage: url(../img/bg-lines.svg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/bg-lines.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .become-instructor-partner-image {
   width: 100%;
   height: 100%;
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .become-instructor-partner-image.bg-image1 {
-  backgroundimage: url(../img/become-instructor.jpg);
+  background-image: url(../img/become-instructor.jpg);
 }
 
 .become-instructor-partner-image.bg-image2 {
-  backgroundimage: url(../img/become-partner.jpg);
+  background-image: url(../img/become-partner.jpg);
 }
 
 .become-instructor-partner-image img {
@@ -4506,29 +4506,29 @@ Features CSS
   position: absolute;
   top: 0;
   left: 0;
-  backgroundsize: cover;
-  backgroundposition: center center;
-  backgroundrepeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .slideshow-box .slideshow-slides li span.bg1 {
-  backgroundimage: url(../img/slideshow/1.jpg);
+  background-image: url(../img/slideshow/1.jpg);
 }
 
 .slideshow-box .slideshow-slides li span.bg2 {
-  backgroundimage: url(../img/slideshow/2.jpg);
+  background-image: url(../img/slideshow/2.jpg);
 }
 
 .slideshow-box .slideshow-slides li span.bg3 {
-  backgroundimage: url(../img/slideshow/3.jpg);
+  background-image: url(../img/slideshow/3.jpg);
 }
 
 .slideshow-box .slideshow-slides li span.bg4 {
-  backgroundimage: url(../img/slideshow/4.jpg);
+  background-image: url(../img/slideshow/4.jpg);
 }
 
 .slideshow-box .slideshow-slides li span.bg5 {
-  backgroundimage: url(../img/slideshow/5.jpg);
+  background-image: url(../img/slideshow/5.jpg);
 }
 
 .slideshow-box .slideshow-slides .owl-stage-outer {
@@ -4928,33 +4928,33 @@ Courses CSS
   width: 100%;
   position: relative;
   border-radius: 5px 0 0 5px;
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-1 {
-  backgroundimage: url(../img/courses/1.jpg);
+  background-image: url(../img/courses/1.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-2 {
-  backgroundimage: url(../img/courses/2.jpg);
+  background-image: url(../img/courses/2.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-3 {
-  backgroundimage: url(../img/courses/3.jpg);
+  background-image: url(../img/courses/3.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-4 {
-  backgroundimage: url(../img/courses/4.jpg);
+  background-image: url(../img/courses/4.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-5 {
-  backgroundimage: url(../img/courses/5.jpg);
+  background-image: url(../img/courses/5.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image.bg-6 {
-  backgroundimage: url(../img/courses/6.jpg);
+  background-image: url(../img/courses/6.jpg);
 }
 
 .single-courses-list-box .box-item .courses-image .image img {
@@ -5815,10 +5815,10 @@ Courses Details CSS
   height: 115px;
   border-radius: 5px 5px 0 0;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundimage: url(../img/bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .courses-details-desc .courses-author .author-profile {
@@ -6168,10 +6168,10 @@ Courses Details CSS
   position: relative;
   border-radius: 5px;
   z-index: 1;
-  backgroundimage: url(../img/mission-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/mission-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .courses-purchase-info::before {
@@ -6195,10 +6195,10 @@ Courses Details CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  backgroundimage: url(../img/bg-lines.svg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/bg-lines.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .courses-purchase-info h4 {
@@ -7016,10 +7016,10 @@ Mission CSS
 .mission-area {
   position: relative;
   z-index: 1;
-  backgroundimage: url(../img/mission-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/mission-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mission-content {
@@ -7246,10 +7246,10 @@ Testimonials CSS
   bottom: 45px;
   width: 110px;
   height: 75px;
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
-  backgroundimage: url(../img/arrow.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/arrow.png);
 }
 
 .feedback-slides.owl-theme {
@@ -7355,10 +7355,10 @@ Students Feedback Form CSS
 .students-feedback-form-area {
   position: relative;
   z-index: 1;
-  backgroundimage: url(../img/feedback-form-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/feedback-form-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .students-feedback-form-content h2 {
@@ -8161,10 +8161,10 @@ Blog Details CSS
   height: 115px;
   border-radius: 5px 5px 0 0;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundimage: url(../img/bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .blog-details-desc .article-author .author-profile {
@@ -8766,10 +8766,10 @@ How It Works CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  backgroundimage: url(../img/bg-lines.svg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/bg-lines.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .how-it-works-area .section-title .sub-title {
@@ -8833,10 +8833,10 @@ How It Works CSS
   height: 75px;
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
-  backgroundimage: url(../img/white-arrow.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/white-arrow.png);
 }
 
 .single-work-process:hover .icon {
@@ -8958,9 +8958,9 @@ Page Title CSS
   position: relative;
   z-index: 1;
   background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 330px;
   padding-bottom: 120px;
 }
@@ -8976,19 +8976,19 @@ Page Title CSS
 }
 
 .page-title-area.item-bg1 {
-  backgroundimage: url(../img/page-title/1.jpg);
+  background-image: url(../img/page-title/1.jpg);
 }
 
 .page-title-area.item-bg2 {
-  backgroundimage: url(../img/page-title/2.jpg);
+  background-image: url(../img/page-title/2.jpg);
 }
 
 .page-title-area.item-bg3 {
-  backgroundimage: url(../img/page-title/3.jpg);
+  background-image: url(../img/page-title/3.jpg);
 }
 
 .page-title-area.item-bg4 {
-  backgroundimage: url(../img/page-title/4.jpg);
+  background-image: url(../img/page-title/4.jpg);
 }
 
 .page-title-content ul {
@@ -9075,9 +9075,9 @@ Events CSS
   height: 100%;
   width: 100%;
   border-radius: 5px 0 0 5px;
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .single-events-box .events-box .events-image .image img {
@@ -9085,19 +9085,19 @@ Events CSS
 }
 
 .single-events-box .events-box .events-image .image.bg1 {
-  backgroundimage: url(../img/events/1.jpg);
+  background-image: url(../img/events/1.jpg);
 }
 
 .single-events-box .events-box .events-image .image.bg2 {
-  backgroundimage: url(../img/events/2.jpg);
+  background-image: url(../img/events/2.jpg);
 }
 
 .single-events-box .events-box .events-image .image.bg3 {
-  backgroundimage: url(../img/events/3.jpg);
+  background-image: url(../img/events/3.jpg);
 }
 
 .single-events-box .events-box .events-image .image.bg4 {
-  backgroundimage: url(../img/events/4.jpg);
+  background-image: url(../img/events/4.jpg);
 }
 
 .single-events-box .events-box .events-content {
@@ -10985,21 +10985,21 @@ Widget Sidebar CSS
   height: 80px;
   display: inline-block;
   border-radius: 5px;
-  backgroundsize: cover !important;
-  backgroundrepeat: no-repeat;
-  backgroundposition: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center center !important;
 }
 
 .widget-area .widget_raque_posts_thumb .item .thumb .fullimage.bg1 {
-  backgroundimage: url(../img/blog/7.jpg);
+  background-image: url(../img/blog/7.jpg);
 }
 
 .widget-area .widget_raque_posts_thumb .item .thumb .fullimage.bg2 {
-  backgroundimage: url(../img/blog/8.jpg);
+  background-image: url(../img/blog/8.jpg);
 }
 
 .widget-area .widget_raque_posts_thumb .item .thumb .fullimage.bg3 {
-  backgroundimage: url(../img/blog/9.jpg);
+  background-image: url(../img/blog/9.jpg);
 }
 
 .widget-area .widget_raque_posts_thumb .item .thumb::before, .widget-area .widget_raque_posts_thumb .item .thumb::after {
@@ -11182,10 +11182,10 @@ Widget Sidebar CSS
   border-radius: 5px;
   height: 400px;
   text-align: center;
-  backgroundimage: url(../img/mission-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/mission-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .widget-area .widget_contact::before {
@@ -11292,19 +11292,19 @@ Login CSS
 .login-image {
   height: 100%;
   width: 100%;
-  backgroundimage: url(../img/login-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/login-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* student login */
 .student-login-image {
   height: 100%;
   width: 100%;
-  backgroundimage: url(../img/student.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/student.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .student-login-image >img{
   
@@ -11527,10 +11527,10 @@ Register CSS
 .register-image {
   height: 100%;
   width: 100%;
-  backgroundimage: url(../img/register-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/register-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .register-image img {
@@ -11825,10 +11825,10 @@ Coming Soon CSS
   position: relative;
   z-index: 1;
   background: #f6f7fb;
-  backgroundimage: url(../img/coming-soon-bg.jpg);
-  backgroundposition: center center;
-  backgroundsize: cover;
-  backgroundrepeat: no-repeat;
+  background-image: url(../img/coming-soon-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .coming-soon-content {
@@ -12064,8 +12064,8 @@ Error 404 CSS
   background: url(../img/oops-bg.jpg) no-repeat;
   -webkit-backgroundclip: text;
   -webkit-text-fill-color: transparent;
-  backgroundsize: cover;
-  backgroundposition: center;
+  background-size: cover;
+  background-position: center;
   text-transform: uppercase;
   font-size: 100px;
   font-weight: 900;
