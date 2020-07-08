@@ -102,14 +102,22 @@ p {
 
 .dropdown-content{
     display: none;
-    
+   
     position: relative;
     left: 10%;
 
     
 }
+/*courses */
 
-.navbar-sidebar ul li:nth-child(2):hover .dropdown-content{
+.courses-wrapper{
+    padding: 20px 30px;
+}
+
+/*courses */
+
+
+.navbar-sidebar ul li:nth-child(5):hover .dropdown-content{
     display: block;
     
     

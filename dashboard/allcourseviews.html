@@ -32,6 +32,8 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
 </head>
 
@@ -154,7 +156,7 @@
                             
                         </li>
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="courses.html">
                                 <i class="fas fa-bullseye "></i>Courses</a>
                            
                         </li>
@@ -392,93 +394,202 @@
             <!-- END PAGE CONTAINER-->
         
     <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="overview-wrap">
-                                    <h2 class="title-1">overview</h2>
-                                    <button class="au-btn au-btn-icon au-btn--blue">
-                                        <i class="zmdi zmdi-plus"></i>add item</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-t-25">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c1">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-ungroup"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>10368</h2>
-                                                <span> Total Listed Course Count</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart1"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c2">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="fas fa-th-list"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>388</h2>
-                                                <span>Listed Courses Category</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart2"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c3">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="fas fa-plug"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>1,086</h2>
-                                                <span>Active Courses</span>
-                                                <h2>086</h2>
-                                                <span>InActive Courses</span>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c4">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="fas fa-globe"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>60,386</h2>
-                                                <span>Country Wise Course Count</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart4"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  <!-- Courses -->
+                 <div class="courses-wrapper">
+                  <h3 class="title-5 m-b-35">COURSES</h3>
+                  <div class="table-data__tool">
+                      <div class="table-data__tool-left">
+                          <div class="rs-select2--light rs-select2--md">
+                              <select class="js-select2" name="property">
+                                  <option selected="selected">All Properties</option>
+                                  <option value="">Option 1</option>
+                                  <option value="">Option 2</option>
+                              </select>
+                              <div class="dropDownSelect2"></div>
+                          </div>
+                          <div class="rs-select2--light rs-select2--sm">
+                              <select class="js-select2" name="time">
+                                  <option selected="selected">Today</option>
+                                  <option value="">3 Days</option>
+                                  <option value="">1 Week</option>
+                              </select>
+                              <div class="dropDownSelect2"></div>
+                          </div>
+                          <button class="au-btn-filter">
+                              <i class="zmdi zmdi-filter-list"></i>filters</button>
+                      </div>
+                      <div class="table-data__tool-right">
+                          <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                              <i class="zmdi zmdi-plus"></i>add item</button>
+                          <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
+                              <select class="js-select2" name="type">
+                                  <option selected="selected">Export</option>
+                                  <option value="">Option 1</option>
+                                  <option value="">Option 2</option>
+                              </select>
+                              <div class="dropDownSelect2"></div>
+                          </div>
                       </div>
                   </div>
+                  <div class="table-responsive table-responsive-data2">
+                      <table class="table table-data2">
+                          <thead>
+                              <tr>
+                                  <th>
+                                      <label class="au-checkbox">
+                                          <input type="checkbox">
+                                          <span class="au-checkmark"></span>
+                                      </label>
+                                  </th>
+                                  <th>name</th>
+                                  <th>email</th>
+                                  <th>description</th>
+                                  <th>date</th>
+                                  <th>status</th>
+                                  <th>price</th>
+                                  <th></th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="tr-shadow">
+                                  <td>
+                                      <label class="au-checkbox">
+                                          <input type="checkbox">
+                                          <span class="au-checkmark"></span>
+                                      </label>
+                                  </td>
+                                  <td>Lori Lynch</td>
+                                  <td>
+                                      <span class="block-email">lori@example.com</span>
+                                  </td>
+                                  <td class="desc">web development</td>
+                                  <td>2018-09-27 02:12</td>
+                                  <td>
+                                      <span class="status--process">Processed</span>
+                                  </td>
+                                  <td>$679.00</td>
+                                  <td>
+                                      <div class="table-data-feature">
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Add">
+                                              <i class="zmdi zmdi-plus-circle-o"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                              <i class="zmdi zmdi-edit"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                              <i class="zmdi zmdi-delete"></i>
+                                          </button>
+                                          
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr class="spacer"></tr>
+                              <tr class="tr-shadow">
+                                  <td>
+                                      <label class="au-checkbox">
+                                          <input type="checkbox">
+                                          <span class="au-checkmark"></span>
+                                      </label>
+                                  </td>
+                                  <td>Lori Lynch</td>
+                                  <td>
+                                      <span class="block-email">john@example.com</span>
+                                  </td>
+                                  <td class="desc">web development</td>
+                                  <td>2018-09-29 05:57</td>
+                                  <td>
+                                      <span class="status--process">Processed</span>
+                                  </td>
+                                  <td>$999.00</td>
+                                  <td>
+                                      <div class="table-data-feature">
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Add">
+                                              <i class="zmdi zmdi-plus-circle-o"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                              <i class="zmdi zmdi-edit"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                              <i class="zmdi zmdi-delete"></i>
+                                          </button>
+                                          
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr class="spacer"></tr>
+                              <tr class="tr-shadow">
+                                  <td>
+                                      <label class="au-checkbox">
+                                          <input type="checkbox">
+                                          <span class="au-checkmark"></span>
+                                      </label>
+                                  </td>
+                                  <td>Lori Lynch</td>
+                                  <td>
+                                      <span class="block-email">lyn@example.com</span>
+                                  </td>
+                                  <td class="desc">web development</td>
+                                  <td>2018-09-25 19:03</td>
+                                  <td>
+                                      <span class="status--denied">Denied</span>
+                                  </td>
+                                  <td>$1199.00</td>
+                                  <td>
+                                      <div class="table-data-feature">
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Add">
+                                              <i class="zmdi zmdi-plus-circle-o"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                              <i class="zmdi zmdi-edit"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                              <i class="zmdi zmdi-delete"></i>
+                                          </button>
+                                          
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr class="spacer"></tr>
+                              <tr class="tr-shadow">
+                                  <td>
+                                      <label class="au-checkbox">
+                                          <input type="checkbox">
+                                          <span class="au-checkmark"></span>
+                                      </label>
+                                  </td>
+                                  <td>Lori Lynch</td>
+                                  <td>
+                                      <span class="block-email">doe@example.com</span>
+                                  </td>
+                                  <td class="desc">web development</td>
+                                  <td>2018-09-24 19:10</td>
+                                  <td>
+                                      <span class="status--process">Processed</span>
+                                  </td>
+                                  <td>$699.00</td>
+                                  <td>
+                                      <div class="table-data-feature">
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Add">
+                                              <i class="zmdi zmdi-plus-circle-o"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                              <i class="zmdi zmdi-edit"></i>
+                                          </button>
+                                          <button class="item" data-toggle="tooltip" data-placement="top" title="Delete">
+                                              <i class="zmdi zmdi-delete"></i>
+                                          </button>
+                                          
+                                      </div>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+                  <hr>
+                  <h3>Manage Offline/Live/Online courses</h3>
+                </div> 
+                  <!-- END DATA TABLE -->
+                </div>
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
