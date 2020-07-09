@@ -60,7 +60,6 @@ Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap");
-
 body {
   background-color: #ffffff;
   padding: 0;
@@ -77,7 +76,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #0089c7;
+  color: #ff1949;
   text-decoration: none;
 }
 
@@ -158,40 +157,6 @@ img {
   margin-bottom: 0;
 }
 
-
-/*  search box */
-.course-search{
-	width: 400px;
-	position: relative;
-	right: 130px;
-}
-
-.global{
-	border-radius: 0px;
-	width: 280px;
-	position: relative;
-	bottom: 60px;
-	left: 280px;
-}
-/*  search box end */
-
-/*-- changes3 */
-.banner-courses-category {
-  text-align: center;
-  padding-left: 15px;
-  padding-bottom: 25px;
-  width: 50%;
-  position: relative;;
-  left: 50%;
-  
- 
-}
-/*-- changes3 end */
-
-.inSameLine{
-	display: inline-block;
-}
-
 /*default-btn*/
 .default-btn {
   -webkit-transition: 0.5s;
@@ -199,11 +164,11 @@ img {
   display: inline-block;
   padding: 13px 25px 12px 55px;
   position: relative;
-  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
-  color: #1d0b5f;
+  background-color: #ff1949;
+  color: #ffffff;
   border-width: 2px;
   border-style: solid;
-  border-color: #0d59bb;
+  border-color: #ff1949;
   border-radius: 1px;
   font-size: 14.5px;
   font-weight: 700;
@@ -254,8 +219,8 @@ img {
 }
 
 .default-btn:hover, .default-btn:focus {
-  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-  color: #200606;
+  background-color: #0eb582;
+  color: #ffffff;
   border-color: #0eb582;
 }
 
@@ -287,7 +252,7 @@ img {
 .section-title .sub-title {
   text-transform: uppercase;
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -430,7 +395,7 @@ Preloader CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #45d0d4;
+  background: #ff1949;
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -549,7 +514,7 @@ Header CSS
 }
 
 .top-header {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   padding-top: 15px;
   padding-bottom: 25px;
 }
@@ -604,12 +569,12 @@ Header CSS
 
 .top-header-btn .default-btn {
   background-color: #ffffff;
-  color: #0089c7;
+  color: #ff1949;
   border-color: #ffffff;
 }
 
 .top-header-btn .default-btn .icon-arrow {
-  color: #0089c7;
+  color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -640,7 +605,7 @@ Header CSS
 }
 
 .top-header-style-two .top-header-contact-info li i {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .top-header-style-two .top-header-contact-info li a {
@@ -648,7 +613,7 @@ Header CSS
 }
 
 .top-header-style-two .top-header-contact-info li a:hover, .top-header-style-two .top-header-contact-info li a:focus {
-  color: #0089c7;
+  color: #ff1949;
   opacity: 1;
 }
 
@@ -677,7 +642,7 @@ Header CSS
 }
 
 .top-header-style-three .top-header-contact-info li a:hover, .top-header-style-three .top-header-contact-info li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .top-header-login-register {
@@ -707,7 +672,7 @@ Header CSS
 }
 
 .top-header-login-register li a:hover, .top-header-login-register li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .top-header-login-register li:last-child {
@@ -739,11 +704,11 @@ Header CSS
 }
 
 .top-header-social a:hover, .top-header-social a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .top-header-style-four {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -836,7 +801,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item a:hover, .raque-nav .navbar .navbar-nav .nav-item a:focus, .raque-nav .navbar .navbar-nav .nav-item a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item a i {
@@ -857,7 +822,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item:hover a, .raque-nav .navbar .navbar-nav .nav-item.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -876,7 +841,7 @@ Header CSS
   border-radius: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  border-top: 2px solid #45d0d4;
+  border-top: 2px solid #ff1949;
   padding: 0;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -908,7 +873,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child a {
@@ -929,7 +894,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -946,7 +911,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -963,7 +928,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -980,7 +945,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -997,7 +962,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1014,12 +979,12 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1030,7 +995,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1041,7 +1006,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1052,7 +1017,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1063,7 +1028,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1074,7 +1039,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -1226,7 +1191,7 @@ Header CSS
 }
 
 .raque-nav .navbar .others-option .search-box:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-area.header-sticky {
@@ -1294,11 +1259,11 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item:hover a, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -1310,7 +1275,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -1322,7 +1287,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1334,7 +1299,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1346,7 +1311,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1358,7 +1323,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1370,7 +1335,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1382,32 +1347,32 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .others-option {
@@ -1423,7 +1388,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .others-option .cart-wrapper-btn:hover, .navbar-style-two .raque-nav .navbar .others-option .cart-wrapper-btn:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two .raque-nav .navbar .others-option .search-box {
@@ -1431,7 +1396,7 @@ Header CSS
 }
 
 .navbar-style-two .raque-nav .navbar .others-option .search-box:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav {
@@ -1443,11 +1408,11 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item:hover a, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
@@ -1456,7 +1421,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
@@ -1464,7 +1429,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -1472,7 +1437,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -1480,7 +1445,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -1488,7 +1453,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -1496,7 +1461,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -1504,32 +1469,32 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span {
@@ -1541,7 +1506,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn:hover, .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box {
@@ -1549,7 +1514,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .navbar-style-three .raque-nav {
@@ -1604,7 +1569,7 @@ Header CSS
     font-size: 14px;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #0089c7;
+    color: #ff1949;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 14px;
@@ -1731,7 +1696,7 @@ Header CSS
     line-height: 1;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .search-box:hover {
-    color: #0089c7;
+    color: #ff1949;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .navbar-nav {
     overflow-y: scroll;
@@ -1857,7 +1822,7 @@ Search Overlay CSS
 }
 
 .search-overlay .search-overlay-close:hover .search-overlay-close-line {
-  background: #45d0d4;
+  background: #ff1949;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -1901,7 +1866,7 @@ Search Overlay CSS
   color: #ffffff;
   height: 45px;
   border-radius: 50%;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border: none;
@@ -1941,7 +1906,7 @@ Main Banner CSS
   height: 950px;
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1983,7 +1948,7 @@ Main Banner CSS
   top: 0;
   height: 100%;
   width: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .main-banner-content h1 {
@@ -2092,7 +2057,7 @@ Main Banner CSS
   height: 950px;
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2124,7 +2089,7 @@ Main Banner CSS
   top: 0;
   height: 100%;
   width: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .banner-content h1 {
@@ -2270,7 +2235,7 @@ Main Banner CSS
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -2294,7 +2259,7 @@ Main Banner CSS
 }
 
 .home-slides.owl-theme .owl-dots .owl-dot:hover span, .home-slides.owl-theme .owl-dots .owl-dot.active span {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .home-slides.owl-theme .owl-dots .owl-dot.active span {
@@ -2311,7 +2276,7 @@ Main Banner CSS
   height: 800px;
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2350,7 +2315,7 @@ Main Banner CSS
   top: 0;
   height: 100%;
   width: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .hero-banner-content h1 {
@@ -2558,7 +2523,7 @@ Main Banner CSS
   position: absolute;
   right: 5px;
   top: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -2612,7 +2577,7 @@ Main Banner CSS
   top: 0;
   height: 100%;
   width: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .wrapper-content h1 {
@@ -2691,7 +2656,7 @@ Main Banner CSS
   position: absolute;
   right: 5px;
   top: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -2708,12 +2673,18 @@ Main Banner CSS
   background-color: #0eb582;
   color: #ffffff;
 }
-
+ /*-- changes3 */
 .banner-courses-category {
   text-align: center;
   padding-left: 15px;
+  padding-bottom: 25px;
+  width: 50%;
+  position: relative;;
+  left: 50%;
+  
+ 
 }
-
+/*-- changes3 end */
 .banner-courses-category ul {
   padding-left: 0;
   list-style-type: none;
@@ -2725,6 +2696,7 @@ Main Banner CSS
   margin-left: -8px;
   margin-right: -8px;
   margin-bottom: -16px;
+ 
 }
 
 .banner-courses-category ul li {
@@ -2757,7 +2729,7 @@ Main Banner CSS
   top: 0;
   width: 100%;
   height: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -2768,7 +2740,7 @@ Main Banner CSS
   display: block;
   font-size: 45px;
   margin-bottom: 8px;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .banner-courses-category ul li a:hover, .banner-courses-category ul li a:focus {
@@ -2926,7 +2898,7 @@ Main Banner CSS
 }
 
 .slider_area .metis .tp-bullet.selected, .slider_area .metis .tp-bullet:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
+  background-color: #ff1949 !important;
 }
 
 /*================================================
@@ -3014,7 +2986,7 @@ Boxes CSS
 }
 
 .single-boxes-item.bg-color {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .single-boxes-item.bg-color h3 {
@@ -3063,7 +3035,7 @@ Boxes CSS
 }
 
 .single-boxes-item.bg-image {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-image: url(../img/mission-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -3119,7 +3091,7 @@ About CSS
 .about-content .sub-title {
   text-transform: uppercase;
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -3222,7 +3194,7 @@ About CSS
 
 .about-right-image .text-box .inner span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   margin-top: -2px;
   font-size: 30px;
   font-weight: 700;
@@ -3231,7 +3203,7 @@ About CSS
 .about-right-image .text-box::before {
   position: absolute;
   content: '';
-  border: 2px dashed #45d0d4;
+  border: 2px dashed #ff1949;
   left: 0;
   top: 0;
   border-radius: 50%;
@@ -3268,7 +3240,7 @@ About CSS
   left: 0;
   bottom: -1px;
   width: 50px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   height: 1px;
 }
 
@@ -3310,7 +3282,7 @@ About CSS
 }
 
 .about-text .features-list li:hover i {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -3497,7 +3469,7 @@ Courses Categories CSS
   padding: 40px 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3730,7 +3702,7 @@ Courses Categories CSS
   top: 0;
   width: 100%;
   height: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3740,7 +3712,7 @@ Courses Categories CSS
   display: block;
   font-size: 55px;
   margin-bottom: 10px;
-  color: #0089c7;
+  color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3950,9 +3922,9 @@ Courses Categories CSS
 }
 
 .courses-categories-slides.owl-theme .owl-nav [class*=owl-]:hover, .courses-categories-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
 }
@@ -4002,7 +3974,7 @@ Courses Categories CSS
 Partner CSS
 =================================================*/
 .partner-area.bg-color {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .partner-area.bg-color .section-title h2 {
@@ -4036,7 +4008,7 @@ Offer CSS
 .offer-area {
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-image: url(../img/offer-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -4108,10 +4080,10 @@ Offer CSS
   text-align: center;
   border-radius: 5px;
   position: relative;
-  border: 2px dashed #45d0d4;
+  border: 2px dashed #ff1949;
   border-radius: 50%;
   font-size: 45px;
-  color: #0089c7;
+  color: #ff1949;
   -webkit-animation: border-transform 10s linear infinite alternate forwards;
           animation: border-transform 10s linear infinite alternate forwards;
   -webkit-transition: 0.5s;
@@ -4146,7 +4118,7 @@ Offer CSS
 }
 
 .single-offer-box:hover .icon {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -4168,7 +4140,7 @@ Offer CSS
 }
 
 .col-lg-4:nth-child(2) .single-offer-box::before {
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .col-lg-4:nth-child(2) .single-offer-box .icon {
@@ -4198,7 +4170,7 @@ Offer CSS
 }
 
 .col-lg-4:nth-child(5) .single-offer-box::before {
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .col-lg-4:nth-child(5) .single-offer-box .icon {
@@ -4271,7 +4243,7 @@ Become Instructor & Partner CSS
 }
 
 .become-instructor-partner-content.bg-color {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-image: unset !important;
 }
 
@@ -4348,7 +4320,7 @@ Funfacts CSS
 
 .funfacts-inner {
   overflow: hidden;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   border-radius: 15px;
   padding: 50px;
   position: relative;
@@ -4397,7 +4369,7 @@ Funfacts CSS
 
 .funfacts-style-two {
   overflow: hidden;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   position: relative;
   z-index: 1;
 }
@@ -4697,7 +4669,7 @@ Courses CSS
           flex: 0 0 29%;
   max-width: 29%;
   text-align: right;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 18px;
   font-weight: 500;
 }
@@ -4872,7 +4844,7 @@ Courses CSS
           flex: 0 0 29%;
   max-width: 29%;
   text-align: right;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 18px;
   font-weight: 500;
 }
@@ -5107,7 +5079,7 @@ Courses CSS
           flex: 0 0 29%;
   max-width: 29%;
   text-align: right;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 18px;
   font-weight: 500;
 }
@@ -5129,11 +5101,11 @@ Courses CSS
 }
 
 .owl-item:nth-child(2) .single-courses-box .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box .courses-image .courses-tag a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag, .col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag, .col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .owl-item:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .owl-item:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-4:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-6:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(2) .single-courses-box:focus .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box:hover .courses-image .courses-tag a, .col-lg-3:nth-child(8) .single-courses-box:focus .courses-image .courses-tag a {
@@ -5205,7 +5177,7 @@ Courses CSS
 }
 
 .shorting-menu .filter:hover, .shorting-menu .filter:focus, .shorting-menu .filter.active {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .shorting .mix {
@@ -5254,9 +5226,9 @@ Courses CSS
 }
 
 .courses-slides.owl-theme .owl-nav [class*=owl-]:hover, .courses-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
 }
@@ -5301,7 +5273,7 @@ Courses CSS
 }
 
 .courses-slides.owl-theme .owl-dots .owl-dot:hover span, .courses-slides.owl-theme .owl-dots .owl-dot.active span {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .courses-slides.owl-theme .owl-dots .owl-dot.active span {
@@ -5365,13 +5337,13 @@ Courses CSS
   height: 3px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
 }
 
 .courses-list-tab .tabs li a:hover, .courses-list-tab .tabs li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-list-tab .tabs li a:hover::after, .courses-list-tab .tabs li a:focus::after {
@@ -5380,7 +5352,7 @@ Courses CSS
 }
 
 .courses-list-tab .tabs li.current a {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-list-tab .tabs li.current a::after {
@@ -5451,7 +5423,7 @@ Courses CSS
 
 .courses-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option:hover, .courses-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.focus, .courses-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.selected.focus {
   background-color: transparent;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.selected {
@@ -5469,7 +5441,7 @@ Courses CSS
   left: 20px;
   top: 14.2px;
   font-size: 18px;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-topbar .topbar-ordering-and-search .topbar-search form .input-search {
@@ -5573,7 +5545,7 @@ Courses Details CSS
 
 .courses-details-header .courses-meta ul li span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
@@ -5586,7 +5558,7 @@ Courses Details CSS
 }
 
 .courses-details-header .courses-meta ul li a:hover, .courses-details-header .courses-meta ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-details-header .courses-meta ul li:last-child {
@@ -5700,7 +5672,7 @@ Courses Details CSS
   position: absolute;
   left: 0;
   top: 2px;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 22px;
 }
 
@@ -5814,7 +5786,7 @@ Courses Details CSS
 .courses-details-desc .courses-author .author-profile-header {
   height: 115px;
   border-radius: 5px 5px 0 0;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-image: url(../img/bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -5863,7 +5835,7 @@ Courses Details CSS
 }
 
 .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a:hover, .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -5908,9 +5880,9 @@ Courses Details CSS
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-title:hover, .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-title.active {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7 !important;
+  border-color: #ff1949 !important;
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item:first-child .accordion-title {
@@ -5981,7 +5953,7 @@ Courses Details CSS
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-content .courses-lessons .single-lessons .lessons-title:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-content .courses-lessons .single-lessons .lessons-info {
@@ -6005,7 +5977,7 @@ Courses Details CSS
   position: absolute;
   left: 0;
   top: 3px;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-content .courses-lessons .single-lessons .lessons-info .attrachment-video {
@@ -6021,11 +5993,11 @@ Courses Details CSS
   left: 0;
   font-size: 17px;
   top: 2px;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-content .courses-lessons .single-lessons .lessons-info .attrachment-video:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .related-courses {
@@ -6069,7 +6041,7 @@ Courses Details CSS
 }
 
 .courses-sidebar-information ul li span i {
-  color: #0089c7;
+  color: #ff1949;
   position: relative;
   top: 4px;
   -webkit-transition: 0.5s;
@@ -6101,7 +6073,7 @@ Courses Details CSS
 }
 
 .courses-sidebar-syllabus .chapter {
-  color: #0089c7;
+  color: #ff1949;
   display: block;
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -6138,7 +6110,7 @@ Courses Details CSS
 }
 
 .courses-sidebar-syllabus .courses-list ul li a:hover, .courses-sidebar-syllabus .courses-list ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .courses-sidebar-syllabus .courses-list ul li a .free-lesson {
@@ -6182,7 +6154,7 @@ Courses Details CSS
   left: 0;
   top: 0;
   border-radius: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   opacity: .60;
   z-index: -1;
 }
@@ -6340,7 +6312,7 @@ Team CSS
 
 .single-instructor-member .member-content span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   font-weight: 500;
 }
 
@@ -6390,7 +6362,7 @@ Team CSS
 }
 
 .single-instructor-member .member-content .social li a:hover, .single-instructor-member .member-content .social li a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -6505,7 +6477,7 @@ Team CSS
 
 .single-instructor-box .image .social li a:hover {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .single-instructor-box .image .social li:nth-child(1) {
@@ -6544,13 +6516,13 @@ Team CSS
 
 .single-instructor-box .content span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 14px;
   margin-top: 6px;
 }
 
 .single-instructor-box:hover .image {
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 .single-instructor-box:hover .image .social li {
@@ -6628,9 +6600,9 @@ Team CSS
 }
 
 .team-slides.owl-theme .owl-nav [class*=owl-]:hover, .team-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
 }
@@ -6704,7 +6676,7 @@ Team CSS
 
 .single-team-member .member-content span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   margin-bottom: 9px;
   font-weight: 500;
   font-size: 14px;
@@ -6752,7 +6724,7 @@ Team CSS
 }
 
 .single-team-member .member-content .social li a:hover, .single-team-member .member-content .social li a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -6821,7 +6793,7 @@ Team Details CSS
 
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
@@ -6834,7 +6806,7 @@ Team Details CSS
 }
 
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li a:hover, .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li:last-child {
@@ -6867,8 +6839,8 @@ Team Details CSS
   color: #ffffff;
   font-size: 17px;
   position: relative;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border: 1px solid #45d0d4;
+  background-color: #ff1949;
+  border: 1px solid #ff1949;
   border-radius: 50%;
 }
 
@@ -6883,8 +6855,8 @@ Team Details CSS
 
 .instructor-details-desc .instructor-details-sidebar .social-link li a:hover, .instructor-details-desc .instructor-details-sidebar .social-link li a:focus {
   background-color: transparent;
-  color: #0089c7;
-  border-color: #0089c7;
+  color: #ff1949;
+  border-color: #ff1949;
 }
 
 .instructor-details-desc .instructor-details-sidebar .social-link li a.facebook {
@@ -6949,7 +6921,7 @@ Team Details CSS
 }
 
 .instructor-details-desc .instructor-details .sub-title {
-  color: #0089c7;
+  color: #ff1949;
   display: block;
   margin-bottom: 15px;
   font-size: 16px;
@@ -6997,7 +6969,7 @@ Team Details CSS
 
 .instructor-details-desc .instructor-details .instructor-details-info ul li span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
@@ -7077,7 +7049,7 @@ Mission CSS
 }
 
 .mission-content .owl-theme .owl-nav [class*=owl-]:hover, .mission-content .owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -7132,7 +7104,7 @@ Testimonials CSS
 }
 
 .single-testimonials-item .info span {
-  color: #0089c7;
+  color: #ff1949;
   display: block;
   font-weight: 500;
 }
@@ -7150,7 +7122,7 @@ Testimonials CSS
   -webkit-box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.06);
           box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.06);
   margin-top: 0;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 1;
@@ -7177,7 +7149,7 @@ Testimonials CSS
 }
 
 .testimonials-slides.owl-theme .owl-dots .owl-dot:hover span, .testimonials-slides.owl-theme .owl-dots .owl-dot.active span {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .testimonials-slides.owl-theme .owl-dots .owl-dot.active span {
@@ -7233,7 +7205,7 @@ Testimonials CSS
 }
 
 .single-feedback-item .info span {
-  color: #0089c7;
+  color: #ff1949;
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -7294,9 +7266,9 @@ Testimonials CSS
 }
 
 .feedback-slides.owl-theme .owl-nav [class*=owl-]:hover, .feedback-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
 }
@@ -7378,7 +7350,7 @@ Students Feedback Form CSS
 }
 
 .students-feedback-form h3 {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   margin-bottom: 0;
   color: #ffffff;
   padding: 25px 20px;
@@ -7486,7 +7458,7 @@ Students Feedback Form CSS
   height: 2px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .students-feedback-form form .form-group .label-title i {
@@ -7674,7 +7646,7 @@ Blog CSS
 .single-blog-post .post-image .tag a {
   display: inline-block;
   background-color: #ffffff;
-  color: #0089c7;
+  color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -7717,7 +7689,7 @@ Blog CSS
 }
 
 .single-blog-post .post-content .post-meta li a:hover, .single-blog-post .post-content .post-meta li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .single-blog-post .post-content .post-meta li::before {
@@ -7768,7 +7740,7 @@ Blog CSS
 .single-blog-post .post-content .read-more-btn::before {
   content: '';
   position: absolute;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   left: 0;
   bottom: 0;
   height: 1px;
@@ -7796,7 +7768,7 @@ Blog CSS
 }
 
 .single-blog-post:hover .post-image .tag a, .single-blog-post:focus .post-image .tag a {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -7834,9 +7806,9 @@ Blog CSS
 }
 
 .blog-slides.owl-theme .owl-nav [class*=owl-]:hover, .blog-slides.owl-theme .owl-nav [class*=owl-]:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(241, 96, 1, 0.2);
 }
@@ -7940,7 +7912,7 @@ Blog Details CSS
 
 .blog-details-desc .article-content .entry-meta ul li span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
@@ -7953,7 +7925,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover, .blog-details-desc .article-content .entry-meta ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -8011,7 +7983,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-content .features-list li i {
-  color: #0089c7;
+  color: #ff1949;
   display: inline-block;
   font-size: 20px;
   position: absolute;
@@ -8058,7 +8030,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-footer .article-tags a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .blog-details-desc .article-footer .article-share {
@@ -8094,16 +8066,16 @@ Blog Details CSS
   height: 32px;
   line-height: 32px;
   border-radius: 50%;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border: 1px solid #45d0d4;
+  border: 1px solid #ff1949;
   text-align: center;
   font-size: 17px;
   margin-left: 2px;
 }
 
 .blog-details-desc .article-footer .article-share .social li a:hover, .blog-details-desc .article-footer .article-share .social li a:focus {
-  color: #0089c7;
+  color: #ff1949;
   background-color: transparent;
 }
 
@@ -8160,7 +8132,7 @@ Blog Details CSS
 .blog-details-desc .article-author .author-profile-header {
   height: 115px;
   border-radius: 5px 5px 0 0;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-image: url(../img/bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -8209,7 +8181,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a:hover, .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -8258,7 +8230,7 @@ blockquote::after, .blockquote::after {
   top: 0;
   bottom: 0;
   width: 3px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -8304,7 +8276,7 @@ blockquote::after, .blockquote::after {
 }
 
 .prev-link-wrapper a:hover .prev-link-info-wrapper {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .prev-link-wrapper .image-prev {
@@ -8334,7 +8306,7 @@ blockquote::after, .blockquote::after {
   left: 0;
   border-radius: 5px;
   opacity: 0;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   visibility: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -8410,7 +8382,7 @@ blockquote::after, .blockquote::after {
 }
 
 .next-link-wrapper a:hover .next-link-info-wrapper {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .next-link-wrapper .image-next {
@@ -8440,7 +8412,7 @@ blockquote::after, .blockquote::after {
   left: 0;
   border-radius: 5px;
   opacity: 0;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   visibility: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -8540,8 +8512,8 @@ blockquote::after, .blockquote::after {
 
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border-color: #0089c7;
+  background-color: #ff1949;
+  border-color: #ff1949;
 }
 
 .comments-area .comment-author {
@@ -8580,7 +8552,7 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .comments-area .comment-respond {
@@ -8729,7 +8701,7 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-respond .form-submit input {
-  background: #45d0d4;
+  background: #ff1949;
   border: none;
   color: #ffffff;
   padding: 12px 30px;
@@ -8755,7 +8727,7 @@ How It Works CSS
 .how-it-works-area {
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .how-it-works-area::before {
@@ -8841,7 +8813,7 @@ How It Works CSS
 
 .single-work-process:hover .icon {
   background-color: #ffffff;
-  color: #0089c7;
+  color: #ff1949;
   border-color: #ffffff;
 }
 
@@ -8881,7 +8853,7 @@ Pricing CSS
 }
 
 .pricing-table table thead tr {
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .pricing-table table thead tr th {
@@ -8957,7 +8929,7 @@ Page Title CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9011,7 +8983,7 @@ Page Title CSS
 }
 
 .page-title-content ul li a:hover, .page-title-content ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
   opacity: 1;
 }
 
@@ -9128,7 +9100,7 @@ Events CSS
 }
 
 .single-events-box .events-box .events-content .content .location i {
-  color: #0089c7;
+  color: #ff1949;
   margin-right: 2px;
   position: relative;
   top: 1px;
@@ -9145,7 +9117,7 @@ Events CSS
 .single-events-box .events-box .events-content .content .join-now-btn::before {
   width: 100%;
   height: 1px;
-  background: #45d0d4;
+  background: #ff1949;
   content: '';
   position: absolute;
   -webkit-transition: 0.5s;
@@ -9169,7 +9141,7 @@ Events CSS
 .single-events-box .events-box .events-date .date {
   width: 100%;
   height: 100%;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   text-align: center;
   color: #ffffff;
   position: relative;
@@ -9256,7 +9228,7 @@ Events Details CSS
 }
 
 .events-details-header .back-all-events:hover, .events-details-header .back-all-events:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .events-details-header h3 {
@@ -9298,7 +9270,7 @@ Events Details CSS
 
 .events-details-header .events-meta ul li span {
   display: block;
-  color: #0089c7;
+  color: #ff1949;
   text-transform: uppercase;
   margin-bottom: 1px;
   font-size: 14px;
@@ -9311,7 +9283,7 @@ Events Details CSS
 }
 
 .events-details-header .events-meta ul li a:hover, .events-details-header .events-meta ul li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .events-details-header .events-meta ul li:last-child {
@@ -9330,18 +9302,18 @@ Events Details CSS
 
 .events-details .events-info-links a {
   display: inline-block;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   border-radius: 5px;
   padding: 5px 15px 6px;
   margin-right: 5px;
-  border: 1px solid #45d0d4;
+  border: 1px solid #ff1949;
   font-size: 15px;
   font-weight: 500;
 }
 
 .events-details .events-info-links a:hover, .events-details .events-info-links a:focus {
-  color: #0089c7;
+  color: #ff1949;
   background-color: transparent;
 }
 
@@ -9349,7 +9321,7 @@ Events Details CSS
 Count Down CSS
 =================================================*/
 .countdown-area {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .countdown-content h2 {
@@ -9503,7 +9475,7 @@ Shop CSS
 
 .woocommerce-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option:hover, .woocommerce-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.focus, .woocommerce-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.selected.focus {
   background-color: transparent;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .woocommerce-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list .option.selected {
@@ -9521,7 +9493,7 @@ Shop CSS
   left: 20px;
   top: 14.2px;
   font-size: 18px;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .woocommerce-topbar .topbar-ordering-and-search .topbar-search form .input-search {
@@ -9636,7 +9608,7 @@ Shop CSS
 }
 
 .single-product-box .product-image .add-to-cart-btn:hover, .single-product-box .product-image .add-to-cart-btn:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -9765,7 +9737,7 @@ Product Details CSS
 
 .product-details-desc .price {
   margin-bottom: 10px;
-  color: #0089c7;
+  color: #ff1949;
   font-size: 15px;
   font-weight: 600;
 }
@@ -9802,8 +9774,8 @@ Product Details CSS
 }
 
 .product-details-desc .product-review .rating-count:hover {
-  color: #0089c7;
-  border-color: #0089c7;
+  color: #ff1949;
+  border-color: #ff1949;
 }
 
 .product-details-desc .product-meta {
@@ -9825,7 +9797,7 @@ Product Details CSS
 }
 
 .product-details-desc .product-meta span span.sku {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .product-details-desc .product-meta span span.in-stock {
@@ -9838,7 +9810,7 @@ Product Details CSS
 }
 
 .product-details-desc .product-meta span a:hover, .product-details-desc .product-meta span a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .product-details-desc .product-meta span:last-child {
@@ -9881,7 +9853,7 @@ Product Details CSS
 }
 
 .product-details-desc .product-add-to-cart .input-counter span:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input {
@@ -10000,8 +9972,8 @@ Product Details CSS
 
 .products-details-tab .tabs li a:hover, .products-details-tab .tabs li a:focus {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border-color: #0089c7;
+  background-color: #ff1949;
+  border-color: #ff1949;
 }
 
 .products-details-tab .tabs li a:hover .dot, .products-details-tab .tabs li a:focus .dot {
@@ -10014,8 +9986,8 @@ Product Details CSS
 
 .products-details-tab .tabs li.current a {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border-color: #0089c7;
+  background-color: #ff1949;
+  border-color: #ff1949;
 }
 
 .products-details-tab .tabs li.current a .dot {
@@ -10161,7 +10133,7 @@ Product Details CSS
 }
 
 .products-details-tab .tab-content .tabs-item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .products-details-tab .tab-content .tabs-item .products-details-tab-content .product-review-form .review-form {
@@ -10329,7 +10301,7 @@ Cart CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input {
@@ -10432,7 +10404,7 @@ Cart CSS
 }
 
 .cart-buttons .shopping-coupon-code button:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .cart-totals {
@@ -10493,13 +10465,13 @@ Checkout CSS
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   background: #ffffff;
   padding: 15px 20px;
-  border-top: 3px solid #45d0d4;
+  border-top: 3px solid #ff1949;
   position: relative;
   margin-bottom: 40px;
 }
 
 .user-actions i {
-  color: #0089c7;
+  color: #ff1949;
   margin-right: 2px;
   font-size: 20px;
   position: relative;
@@ -10509,7 +10481,7 @@ Checkout CSS
 .user-actions span {
   display: inline-block;
   font-weight: 500;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .user-actions span a {
@@ -10518,7 +10490,7 @@ Checkout CSS
 }
 
 .user-actions span a:hover, .user-actions span a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .billing-details .title {
@@ -10533,7 +10505,7 @@ Checkout CSS
 .billing-details .title::before {
   content: '';
   position: absolute;
-  background: #45d0d4;
+  background: #ff1949;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -10584,7 +10556,7 @@ Checkout CSS
 }
 
 .billing-details .form-group .nice-select .list .option:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
+  background-color: #ff1949 !important;
   color: #ffffff;
 }
 
@@ -10678,7 +10650,7 @@ Checkout CSS
 .order-details .title::before {
   content: '';
   position: absolute;
-  background: #45d0d4;
+  background: #ff1949;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -10715,7 +10687,7 @@ Checkout CSS
 }
 
 .order-details .order-table table tbody tr td.product-name a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
@@ -10766,7 +10738,7 @@ Checkout CSS
   content: '';
   width: 12px;
   height: 12px;
-  background: #45d0d4;
+  background: #ff1949;
   position: absolute;
   top: 6px;
   left: 3px;
@@ -10816,7 +10788,7 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus, .pagination-area .page-numbers.current {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .pagination-area .page-numbers.prev, .pagination-area .page-numbers.next {
@@ -10854,7 +10826,7 @@ Widget Sidebar CSS
   top: 0;
   width: 3px;
   height: 6px;
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .widget-area .widget .widget-title::after {
@@ -10937,7 +10909,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_search form button {
   border: none;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   height: 45px;
   width: 45px;
@@ -11096,7 +11068,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .widget-area .widget_categories ul li .post-count {
@@ -11126,8 +11098,8 @@ Widget Sidebar CSS
 
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  border-color: #0089c7;
+  background-color: #ff1949;
+  border-color: #ff1949;
 }
 
 .widget-area .widget_instagram ul {
@@ -11164,7 +11136,7 @@ Widget Sidebar CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -11196,7 +11168,7 @@ Widget Sidebar CSS
   left: 0;
   top: 0;
   border-radius: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   opacity: .60;
   z-index: -1;
 }
@@ -11250,7 +11222,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_contact:hover .text .icon {
   background-color: #ffffff;
-  color: #0089c7;
+  color: #ff1949;
   border-color: #ffffff;
 }
 
@@ -11283,7 +11255,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_events_details ul li a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 /*================================================
@@ -11432,13 +11404,13 @@ Login CSS
   width: 100%;
   padding: 13px 25px 12px 25px;
   position: relative;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
           box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
   border-width: 2px;
   border-style: solid;
-  border-color: #0089c7;
+  border-color: #ff1949;
   border-radius: 5px;
   font-size: 14.5px;
   font-weight: 700;
@@ -11457,7 +11429,7 @@ Login CSS
 
 .login-content .login-form form .forgot-password a {
   display: inline-block;
-  color: #0089c7;
+  color: #ff1949;
   text-decoration: underline;
 }
 
@@ -11473,13 +11445,13 @@ Login CSS
   display: block;
   width: 100%;
   position: relative;
-  border: 1px solid #45d0d4;
+  border: 1px solid #ff1949;
   background-color: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 12px 30px;
   border-radius: 2px;
-  color: #0089c7;
+  color: #ff1949;
   font-weight: 500;
 }
 
@@ -11516,9 +11488,9 @@ Login CSS
 }
 
 .login-content .login-form form .connect-with-social button:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 /*================================================
@@ -11630,13 +11602,13 @@ Register CSS
   width: 100%;
   padding: 13px 25px 12px 25px;
   position: relative;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
           box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
   border-width: 2px;
   border-style: solid;
-  border-color: #0089c7;
+  border-color: #ff1949;
   border-radius: 5px;
   font-size: 14.5px;
   font-weight: 700;
@@ -11663,13 +11635,13 @@ Register CSS
   display: block;
   width: 100%;
   position: relative;
-  border: 1px solid #45d0d4;
+  border: 1px solid #ff1949;
   background-color: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 12px 30px;
   border-radius: 2px;
-  color: #0089c7;
+  color: #ff1949;
   font-weight: 500;
 }
 
@@ -11706,9 +11678,9 @@ Register CSS
 }
 
 .register-content .register-form form .connect-with-social button:hover {
-  background:  rgb(25, 28, 209);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 /*================================================
@@ -11748,12 +11720,12 @@ FAQ CSS
 }
 
 .faq-accordion-tab .tabs li a:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
 .faq-accordion-tab .tabs li.current a {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -11922,7 +11894,7 @@ Coming Soon CSS
   height: 2px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: #45d0d4;
+  background: #ff1949;
 }
 
 .coming-soon-content form .form-group .input-newsletter {
@@ -12062,7 +12034,7 @@ Error 404 CSS
 
 .error-404-area .notfound h1 {
   background: url(../img/oops-bg.jpg) no-repeat;
-  -webkit-backgroundclip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
   background-position: center;
@@ -12119,7 +12091,7 @@ Contact CSS
   background: #f5f5f5;
   border-radius: 50%;
   font-size: 35px;
-  color: #0089c7;
+  color: #ff1949;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 15px;
@@ -12151,7 +12123,7 @@ Contact CSS
 }
 
 .contact-info-box p a:hover {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .contact-info-box p:last-child {
@@ -12164,9 +12136,9 @@ Contact CSS
 }
 
 .contact-info-box:hover .icon {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 .contact-form {
@@ -12330,7 +12302,7 @@ My Account CSS
 }
 
 .myAccount-profile .profile-content .contact-info li a:hover, .myAccount-profile .profile-content .contact-info li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .myAccount-profile .profile-content .contact-info li:last-child {
@@ -12353,7 +12325,7 @@ My Account CSS
   width: 30px;
   height: 30px;
   text-align: center;
-  color: #0089c7;
+  color: #ff1949;
   background-color: #f4f4f4;
   font-size: 18px;
   position: relative;
@@ -12370,7 +12342,7 @@ My Account CSS
 }
 
 .myAccount-profile .profile-content .social li a:hover, .myAccount-profile .profile-content .social li a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -12428,9 +12400,9 @@ My Account CSS
 }
 
 .myAccount-navigation ul li a.active, .myAccount-navigation ul li a:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 .myAccount-navigation ul li:last-child {
@@ -12447,7 +12419,7 @@ My Account CSS
 
 .myAccount-content p a {
   display: inline-block;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .myAccount-content p a:hover {
@@ -12493,7 +12465,7 @@ My Account CSS
 }
 
 .myAccount-content .recent-orders-table .table tbody td .view-button:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -12529,7 +12501,7 @@ My Account CSS
 }
 
 .myAccount-content .orders-table .table tbody td .view-button:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -12569,7 +12541,7 @@ My Account CSS
 }
 
 .myAccount-content .downloads-table .table tbody td .downloads-button:hover {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -12655,7 +12627,7 @@ My Account CSS
 
 .myAccount-content .edit-account .form-group .nice-select .list .option:hover, .myAccount-content .edit-account .form-group .nice-select .list .option.focus, .myAccount-content .edit-account .form-group .nice-select .list .option.selected.focus {
   background-color: transparent;
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .myAccount-content .edit-account .form-group .nice-select .list .option.selected {
@@ -12712,7 +12684,7 @@ My Account CSS
 
 .myAccount-content .myAccount-addresses .addresses-title .edit:hover {
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
 }
 
 .myAccount-content .myAccount-addresses address {
@@ -12765,7 +12737,7 @@ Footer CSS
 }
 
 .single-footer-widget .contact-us-link li a:hover, .single-footer-widget .contact-us-link li a:focus {
-  color: #0089c7;
+  color: #ff1949;
 }
 
 .single-footer-widget .contact-us-link li:last-child {
@@ -12792,7 +12764,7 @@ Footer CSS
 }
 
 .single-footer-widget .support-link li a:hover, .single-footer-widget .support-link li a:focus {
-  color: #0089c7;
+  color: #ff1949;
   padding-left: 7px;
 }
 
@@ -12816,7 +12788,7 @@ Footer CSS
 }
 
 .single-footer-widget .useful-link li a:hover, .single-footer-widget .useful-link li a:focus {
-  color: #0089c7;
+  color: #ff1949;
   padding-left: 7px;
 }
 
@@ -12836,7 +12808,7 @@ Footer CSS
   width: 30px;
   height: 30px;
   text-align: center;
-  color: #0089c7;
+  color: #ff1949;
   background-color: #ffffff;
   font-size: 18px;
   position: relative;
@@ -12853,7 +12825,7 @@ Footer CSS
 }
 
 .single-footer-widget .social-link li a:hover, .single-footer-widget .social-link li a:focus {
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
 }
 
@@ -12904,7 +12876,7 @@ Footer CSS
 
 .single-footer-widget .newsletter-box form .input-newsletter:focus {
   padding-left: 12px;
-  border-color: #0089c7;
+  border-color: #ff1949;
 }
 
 .single-footer-widget .newsletter-box form button {
@@ -12912,7 +12884,7 @@ Footer CSS
   margin-top: .9rem;
   width: 100%;
   border-radius: .25rem;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   color: #ffffff;
   border: none;
   padding: 12px 25px;
@@ -12963,7 +12935,7 @@ Footer CSS
 }
 
 .footer-bottom-area p a:hover, .footer-bottom-area p a:focus {
-  color: #0089c7;
+  color: #ff1949;
   text-decoration: underline;
 }
 
@@ -12976,7 +12948,7 @@ Go Top CSS
   bottom: -42px;
   right: 15px;
   color: #ffffff;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: #ff1949;
   z-index: 4;
   width: 42px;
   text-align: center;
