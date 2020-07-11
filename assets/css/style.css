@@ -1782,7 +1782,7 @@ Search Overlay CSS
   bottom: 0;
   left: 0;
   z-index: 99999;
-  opacity: 0;
+  opacity: 0.5;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -5208,7 +5208,7 @@ Courses CSS
   color: #0089c7;
 }
 
-.shorting .mix {
+.shorting .{
   display: none;
 }
 
@@ -11479,7 +11479,7 @@ Login CSS
   transition: 0.5s;
   padding: 12px 30px;
   border-radius: 2px;
-  color: #0089c7;
+  color: white;
   font-weight: 500;
 }
 
@@ -11494,7 +11494,8 @@ Login CSS
 
 .login-content .login-form form .connect-with-social button.facebook {
   border-color: #3b5998;
-  color: #3b5998;
+  color: white;
+  background-color: blue;
 }
 
 .login-content .login-form form .connect-with-social button.facebook:hover {
@@ -11506,7 +11507,7 @@ Login CSS
 .login-content .login-form form .connect-with-social button.twitter {
   margin-top: 10px;
   border-color: #1da1f2;
-  color: #1da1f2;
+  color:white;
 }
 
 .login-content .login-form form .connect-with-social button.twitter:hover {
@@ -13009,5 +13010,20 @@ Go Top CSS
 
 .go-top:hover i {
   margin-top: -3px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+}
+.myAccount-navigation ul li:nth-child(3):hover .dropdown-content{
+    display: block;
+}
+.myAccount-navigation ul li a span{
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    top: 47%;
+    transform: translateY(-47%);
 }
 /*# sourceMappingURL=style.css.map */
