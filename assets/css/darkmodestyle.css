@@ -62,7 +62,7 @@ Default CSS
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap");
 
 body {
-  background-color: #ffffff;
+  background-color:  #252525;
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #252525;
+  color: #ffffff;
 }
 
 a:hover, a:focus {
@@ -150,7 +150,7 @@ img {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #252525;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -165,22 +165,20 @@ img {
 	position: relative;
 	right: 130px;
 }
-
 /* dark mode btn */
 .fab-container{
   position: fixed;
   bottom: 50px;
   right: 50px;
   z-index: 999;
-  
+
 
 }
 .icon-holder{
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background-color:yellow;
-  cursor: pointer;
+  background-color: black;
   border: none;
 }
 .icon-holder span{
@@ -189,7 +187,7 @@ img {
   justify-content: center;
   height: 100%;
   
-  color: black;
+  color: yellow;
 }
 /* dark mode btn */
 
@@ -358,8 +356,8 @@ img {
   height: 48px;
   padding: 0 0 0 12px;
   line-height: initial;
-  color: #252525;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color:  #252525;
   border: 1px solid #e6e9fc;
   border-radius: 3px;
   -webkit-transition: 0.5s;
@@ -630,7 +628,7 @@ Header CSS
 }
 
 .top-header-btn .default-btn {
-  background-color: #ffffff;
+  background-color:  #252525;
   color: #0089c7;
   border-color: #ffffff;
 }
@@ -642,9 +640,9 @@ Header CSS
 }
 
 .top-header-btn .default-btn:hover, .top-header-btn .default-btn:focus {
-  background-color: #252525;
+  background-color: #ffffff;
   color: #ffffff;
-  border-color: #252525;
+  border-color: #ffffff;
 }
 
 .top-header-btn .default-btn:hover .icon-arrow, .top-header-btn .default-btn:focus .icon-arrow {
@@ -652,7 +650,7 @@ Header CSS
 }
 
 .top-header-style-two {
-  background-color: #ffffff;
+  background-color:  #252525;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -671,7 +669,7 @@ Header CSS
 }
 
 .top-header-style-two .top-header-contact-info li a {
-  color: #252525;
+  color: #ffffff;
 }
 
 .top-header-style-two .top-header-contact-info li a:hover, .top-header-style-two .top-header-contact-info li a:focus {
@@ -822,7 +820,7 @@ Header CSS
 }
 
 .raque-nav .navbar {
-  background-color: #ffffff;
+  background-color:  #252525;
   padding: 0 20px;
   border-radius: 3px;
 }
@@ -851,7 +849,7 @@ Header CSS
 }
 
 .raque-nav .navbar .navbar-nav .nav-item a {
-  color: #252525;
+  color: #ffffff;
   font-size: 16.5px;
   font-weight: 500;
   padding-left: 0;
@@ -1173,7 +1171,7 @@ Header CSS
 
 .raque-nav .navbar .others-option .language-switcher .dropdown-menu .dropdown-item {
   padding: 0;
-  color: #252525;
+  color: #ffffff;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -1198,7 +1196,7 @@ Header CSS
 }
 
 .raque-nav .navbar .others-option .language-switcher .dropdown-menu .dropdown-item:active, .raque-nav .navbar .others-option .language-switcher .dropdown-menu .dropdown-item.active {
-  color: #252525;
+  color: #ffffff;
   background-color: transparent;
 }
 
@@ -1240,7 +1238,7 @@ Header CSS
   margin-left: 16px;
   cursor: pointer;
   font-size: 25px;
-  color: #252525;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   line-height: 1;
@@ -1466,7 +1464,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a {
-  color: #252525;
+  color: #ffffff;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:hover, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:focus, .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a.active {
@@ -1560,11 +1558,11 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span {
-  color: #252525;
+  color: #ffffff;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn {
-  color: #252525;
+  color: #ffffff;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn:hover, .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn:focus {
@@ -1572,7 +1570,7 @@ Header CSS
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box {
-  color: #252525;
+  color: #ffffff;
 }
 
 .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box:hover {
@@ -1581,7 +1579,7 @@ Header CSS
 
 .navbar-style-three .raque-nav {
   margin-top: 0;
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 .navbar-style-three .raque-nav .navbar {
@@ -1609,7 +1607,7 @@ Header CSS
 
 .navbar-style-four .raque-nav {
   margin-top: 0;
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 .navbar-style-four .raque-nav .navbar {
@@ -1690,7 +1688,7 @@ Header CSS
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-menu .dropdown-item {
     padding: 0;
-    color: #252525;
+    color: #ffffff;
     margin-bottom: 10px;
     font-weight: 500;
   }
@@ -1710,7 +1708,7 @@ Header CSS
     background-color: transparent !important;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-menu .dropdown-item:active, .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-menu .dropdown-item.active {
-    color: #252525;
+    color: #ffffff;
     background-color: transparent;
   }
   .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-menu.show {
@@ -1747,7 +1745,7 @@ Header CSS
     margin-left: 16px;
     cursor: pointer;
     font-size: 25px;
-    color: #252525;
+    color: #ffffff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     line-height: 1;
@@ -1767,7 +1765,7 @@ Header CSS
             box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }
   .raque-responsive-nav .mean-container a.meanmenu-reveal {
-    color: #252525;
+    color: #ffffff;
   }
   .raque-responsive-nav .mean-container a.meanmenu-reveal span {
     background: #252525;
@@ -1778,7 +1776,7 @@ Header CSS
     z-index: 999;
   }
   .navbar-area {
-    background-color: #ffffff;
+    background-color:  #252525;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -1867,7 +1865,7 @@ Search Overlay CSS
   height: 3px;
   float: left;
   margin-bottom: 5px;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -1916,7 +1914,7 @@ Search Overlay CSS
   border: none;
   border-radius: 30px;
   padding-left: 20px;
-  color: #252525;
+  color: #ffffff;
   font-size: 15px;
 }
 
@@ -1937,7 +1935,7 @@ Search Overlay CSS
 }
 
 .search-overlay .search-overlay-form form button:hover {
-  background-color: #252525;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -2058,7 +2056,7 @@ Main Banner CSS
   bottom: 0;
   width: 100%;
   height: 2px;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2270,7 +2268,7 @@ Main Banner CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #252525;
+  color: #ffffff;
   font-size: 35px;
   margin: 0;
   padding: 0;
@@ -2349,7 +2347,7 @@ Main Banner CSS
   height: auto;
   padding-top: 50px;
   padding-bottom: 0;
-  background-color: #ffffff;
+  background-color:  #252525;
   background-image: unset !important;
 }
 
@@ -2424,7 +2422,7 @@ Main Banner CSS
   bottom: 0;
   width: 100%;
   height: 2px;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2456,11 +2454,11 @@ Main Banner CSS
 }
 
 .hero-banner-content.black-color .sub-title {
-  color: #252525;
+  color: #ffffff;
 }
 
 .hero-banner-content.black-color h1 {
-  color: #252525;
+  color: #ffffff;
 }
 
 .hero-banner-content.black-color p {
@@ -2468,11 +2466,11 @@ Main Banner CSS
 }
 
 .hero-banner-content.black-color .btn-box .optional-btn {
-  color: #252525;
+  color: #ffffff;
 }
 
 .hero-banner-content.black-color .btn-box .optional-btn::before {
-  background-color: #252525;
+  background-color: #ffffff;
 }
 
 .hero-banner-content.black-color .btn-box .optional-btn::after {
@@ -2480,7 +2478,7 @@ Main Banner CSS
 }
 
 .hero-banner-content.black-color .btn-box .optional-btn:hover, .hero-banner-content.black-color .btn-box .optional-btn:focus {
-  color: #252525;
+  color: #ffffff;
 }
 
 .hero-banner-image {
@@ -2494,7 +2492,7 @@ Main Banner CSS
 }
 
 .main-banner-wrapper {
-  background-color: #ffffff;
+  background-color:  #252525;
   position: relative;
   z-index: 1;
   padding-top: 100px;
@@ -2530,13 +2528,13 @@ Main Banner CSS
 .banner-wrapper-content form .input-search {
   display: block;
   width: 100%;
-  background-color: #ffffff;
+  background-color:  #252525;
   border: none;
   height: 60px;
   padding-left: 20px;
   border-radius: 70px;
   outline: 0;
-  color: #252525;
+  color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
           box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
 }
@@ -2608,7 +2606,7 @@ Main Banner CSS
 }
 
 .banner-wrapper {
-  background-color: #252525;
+  background-color: #ffffff;
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #232021), to(#0093c8));
   background: linear-gradient(90deg, #232021 0, #0093c8);
   position: relative;
@@ -2663,13 +2661,13 @@ Main Banner CSS
 .wrapper-content form .input-search {
   display: block;
   width: 100%;
-  background-color: #ffffff;
+  background-color:  #252525;
   border: none;
   height: 60px;
   padding-left: 20px;
   border-radius: 70px;
   outline: 0;
-  color: #252525;
+  color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
           box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
 }
@@ -2766,13 +2764,13 @@ Main Banner CSS
 
 .banner-courses-category ul li a {
   display: block;
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 5px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px 0 rgba(50, 50, 50, 0.4);
           box-shadow: 0 1px 6px 0 rgba(50, 50, 50, 0.4);
   padding: 15px;
-  color: #252525;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -2987,7 +2985,7 @@ Boxes CSS
 .single-boxes-item {
   padding: 40px;
   position: relative;
-  background-color: #f8f8f8;
+  background-color: grey;
   z-index: 1;
   min-height: 120px;
 }
@@ -3001,7 +2999,7 @@ Boxes CSS
 .single-boxes-item .boxes-btn {
   display: inline-block;
   position: relative;
-  color: #252525;
+  color: #ffffff;
   z-index: 1;
   padding-right: 22px;
   -webkit-transition: .4s;
@@ -3022,7 +3020,7 @@ Boxes CSS
 .single-boxes-item .boxes-btn::before {
   content: '';
   position: absolute;
-  background-color: #252525;
+  background-color: #ffffff;
   left: 0;
   bottom: 0;
   height: 1px;
@@ -3058,7 +3056,7 @@ Boxes CSS
 }
 
 .single-boxes-item.bg-color .boxes-btn::before {
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 .single-boxes-item.bg-color::before {
@@ -3111,7 +3109,7 @@ Boxes CSS
 }
 
 .single-boxes-item.bg-image .boxes-btn::before {
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 /*================================================
@@ -3228,7 +3226,7 @@ About CSS
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
           box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
   text-align: center;
@@ -3309,14 +3307,14 @@ About CSS
 .about-text .features-list li {
   position: relative;
   margin-bottom: 12px;
-  color: #252525;
+  color: #ffffff;
   padding-top: 3px;
   padding-left: 30px;
 }
 
 .about-text .features-list li i {
   font-size: 16px;
-  color: #252525;
+  color: #ffffff;
   background-color: #eaeaf2;
   width: 20px;
   height: 20px;
@@ -3414,7 +3412,7 @@ Courses Categories CSS
 }
 
 .courses-categories-area.bg-image {
-  background-image: url(../img/pattern.jpg);
+  background-color: #252525;
 }
 
 .single-categories-courses-box {
@@ -3508,7 +3506,7 @@ Courses Categories CSS
 }
 
 .single-categories-courses-box:hover .icon, .single-categories-courses-box:focus .icon {
-  background-color: #ffffff;
+  background-color:  #252525;
   border-color: #0eb582;
   color: #0eb582;
   -webkit-animation: border-transform 10s linear infinite alternate forwards;
@@ -3618,7 +3616,7 @@ Courses Categories CSS
 .single-categories-courses-item .learn-more-btn::before {
   content: '';
   position: absolute;
-  background-color: #ffffff;
+  background-color:  #252525;
   left: 0;
   bottom: 0;
   height: 1px;
@@ -3738,13 +3736,13 @@ Courses Categories CSS
 
 .single-courses-category a {
   display: block;
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 5px;
   position: relative;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   padding: 25px;
-  color: #252525;
+  color: #ffffff;
   z-index: 1;
   font-size: 20px;
   font-weight: 600;
@@ -4091,12 +4089,12 @@ Offer CSS
   width: 100%;
   height: 20%;
   z-index: -1;
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 .single-offer-box {
   text-align: center;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
           box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 25px;
@@ -4143,7 +4141,7 @@ Offer CSS
           animation: border-transform 10s linear infinite alternate forwards;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #ffffff;
+  background-color:  #252525;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -4312,20 +4310,20 @@ Become Instructor & Partner CSS
 }
 
 .become-instructor-partner-content.bg-color .default-btn {
-  background-color: #ffffff;
-  color: #252525;
+  background-color:  #252525;
+  color: #ffffff;
 }
 
 .become-instructor-partner-content.bg-color .default-btn .icon-arrow {
-  color: #252525;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .become-instructor-partner-content.bg-color .default-btn:focus, .become-instructor-partner-content.bg-color .default-btn:hover {
   color: #ffffff;
-  background-color: #252525;
-  border-color: #252525;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .become-instructor-partner-content.bg-color .default-btn:focus .icon-arrow, .become-instructor-partner-content.bg-color .default-btn:hover .icon-arrow {
@@ -4586,7 +4584,7 @@ Courses CSS
 }
 
 .single-courses-box {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   border-radius: 5px 5px 0 0;
@@ -4607,7 +4605,7 @@ Courses CSS
   position: absolute;
   right: 25px;
   bottom: 0;
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 5px 5px 0 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4636,7 +4634,7 @@ Courses CSS
 }
 
 .single-courses-box .courses-content .course-author span {
-  color: #252525;
+  color: #ffffff;
   font-size: 14.5px;
   font-weight: 500;
 }
@@ -4695,7 +4693,7 @@ Courses CSS
 }
 
 .single-courses-box .courses-box-footer ul li i {
-  color: #252525;
+  color: #ffffff;
   position: relative;
   top: 1px;
 }
@@ -4763,7 +4761,7 @@ Courses CSS
 }
 
 .single-courses-item {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   -webkit-transition: 0.5s;
@@ -4798,7 +4796,7 @@ Courses CSS
 }
 
 .single-courses-item .courses-content .course-author span {
-  color: #252525;
+  color: #ffffff;
   position: relative;
   top: 10px;
   margin-left: 10px;
@@ -4870,7 +4868,7 @@ Courses CSS
 }
 
 .single-courses-item .courses-box-footer ul li i {
-  color: #252525;
+  color: #ffffff;
   position: relative;
   top: 1px;
 }
@@ -4925,7 +4923,7 @@ Courses CSS
 }
 
 .single-courses-list-box {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   border-radius: 5px;
@@ -4993,7 +4991,7 @@ Courses CSS
   top: 15px;
   left: 15px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-left: 15px;
@@ -5038,7 +5036,7 @@ Courses CSS
 }
 
 .single-courses-list-box .box-item .courses-desc .courses-content .course-author span {
-  color: #252525;
+  color: #ffffff;
   font-size: 14.5px;
   font-weight: 500;
 }
@@ -5105,7 +5103,7 @@ Courses CSS
 }
 
 .single-courses-list-box .box-item .courses-desc .courses-box-footer ul li i {
-  color: #252525;
+  color: #ffffff;
   position: relative;
   top: 1px;
 }
@@ -5340,7 +5338,7 @@ Courses CSS
   margin-bottom: 40px;
   text-align: center;
   list-style-type: none;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0 2px 16px 0px rgba(146, 184, 255, 0.15);
           box-shadow: 0 2px 16px 0px rgba(146, 184, 255, 0.15);
   border-radius: 5px;
@@ -5457,7 +5455,7 @@ Courses CSS
 }
 
 .courses-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list {
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 0;
   -webkit-box-shadow: unset;
           box-shadow: unset;
@@ -5501,7 +5499,7 @@ Courses CSS
 
 .courses-topbar .topbar-ordering-and-search .topbar-search form .input-search {
   height: 50px;
-  color: #252525;
+  color: #ffffff;
   background-color: #eef5f9;
   display: block;
   width: 100%;
@@ -5609,7 +5607,7 @@ Courses Details CSS
 
 .courses-details-header .courses-meta ul li a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
 }
 
 .courses-details-header .courses-meta ul li a:hover, .courses-details-header .courses-meta ul li a:focus {
@@ -5716,7 +5714,7 @@ Courses Details CSS
 
 .courses-details-desc .why-you-learn ul li span {
   display: block;
-  color: #252525;
+  color: #ffffff;
   position: relative;
   padding-left: 28px;
   line-height: 1.7;
@@ -5753,7 +5751,7 @@ Courses Details CSS
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #252525;
+  background-color: #ffffff;
 }
 
 .courses-details-desc .requirements-list li:last-child {
@@ -5761,7 +5759,7 @@ Courses Details CSS
 }
 
 .courses-details-desc p strong {
-  color: #252525;
+  color: #ffffff;
 }
 
 .courses-details-desc .description-features-list {
@@ -5787,11 +5785,11 @@ Courses Details CSS
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #252525;
+  background-color: #ffffff;
 }
 
 .courses-details-desc .description-features-list li strong {
-  color: #252525;
+  color: #ffffff;
 }
 
 .courses-details-desc .description-features-list li:last-child {
@@ -5821,11 +5819,11 @@ Courses Details CSS
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #252525;
+  background-color: #ffffff;
 }
 
 .courses-details-desc .audience-list li strong {
-  color: #252525;
+  color: #ffffff;
 }
 
 .courses-details-desc .audience-list li:last-child {
@@ -5882,7 +5880,7 @@ Courses Details CSS
 }
 
 .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a {
-  color: #252525;
+  color: #ffffff;
   padding: 5px 12px 4px;
   border-radius: 2px;
   font-size: 14px;
@@ -5915,7 +5913,7 @@ Courses Details CSS
   position: relative;
   padding: 13px 40px 13px 15px;
   border-top: none;
-  color: #252525;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -5974,7 +5972,7 @@ Courses Details CSS
 }
 
 .courses-details-desc .courses-accordion .accordion .accordion-item .accordion-content .courses-lessons .single-lessons .number {
-  color: #252525;
+  color: #ffffff;
   display: inline-block;
   margin-right: 3px;
   font-weight: 500;
@@ -6073,14 +6071,14 @@ Courses Details CSS
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
 }
 
 .courses-sidebar-information ul li {
   border-bottom: 1px dashed #eeeeee;
-  color: #252525;
+  color: #ffffff;
   overflow: hidden;
   text-align: right;
   padding: 12px 15px;
@@ -6182,7 +6180,7 @@ Courses Details CSS
 
 .courses-sidebar-syllabus .courses-list ul li .number {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -6296,7 +6294,7 @@ Courses Details CSS
 }
 
 .courses-review-comments .user-review .review-rating span {
-  color: #252525;
+  color: #ffffff;
   position: relative;
   top: -2px;
   font-weight: 500;
@@ -6513,7 +6511,7 @@ Team CSS
   text-align: center;
   position: relative;
   font-size: 20px;
-  color: #252525;
+  color: #ffffff;
   border-radius: 2px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -6705,7 +6703,7 @@ Team CSS
   left: 0;
   top: 85%;
   z-index: 2;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   opacity: 0;
@@ -6857,7 +6855,7 @@ Team Details CSS
 
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
 }
 
 .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li a:hover, .instructor-details-desc .instructor-details-sidebar .instructor-details-meta ul li a:focus {
@@ -7050,7 +7048,7 @@ Mission CSS
 }
 
 .mission-content {
-  background-color: #ffffff;
+  background-color:  #252525;
   padding: 60px;
   border-radius: 5px;
   max-width: 630px;
@@ -7077,7 +7075,7 @@ Mission CSS
 }
 
 .mission-content .owl-theme .owl-nav [class*=owl-] {
-  color: #252525;
+  color: #ffffff;
   font-size: 25px;
   margin: 0;
   padding: 0;
@@ -7118,7 +7116,7 @@ Testimonials CSS
 }
 
 .single-testimonials-item {
-  background-color: #ffffff;
+  background-color:  #252525;
   padding: 35px 30px 95px;
   -webkit-box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.06);
           box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.06);
@@ -7215,7 +7213,7 @@ Testimonials CSS
 .feedback-area {
   position: relative;
   z-index: 1;
-  background-color: #F7F5F4;
+  background-color: grey;
 }
 
 .single-feedback-item {
@@ -7226,7 +7224,7 @@ Testimonials CSS
 }
 
 .single-feedback-item p {
-  color: #252525;
+  color: #ffffff;
   margin-bottom: 0;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -7400,7 +7398,7 @@ Students Feedback Form CSS
   position: relative;
   z-index: 1;
   text-align: center;
-  background-color: #ffffff;
+  background-color:  #252525;
   color: #ffffff;
 }
 
@@ -7414,7 +7412,7 @@ Students Feedback Form CSS
 }
 
 .students-feedback-form form {
-  color: #252525;
+  color: #ffffff;
   padding: 30px;
 }
 
@@ -7429,7 +7427,7 @@ Students Feedback Form CSS
   border: none;
   border-bottom: 1.3px solid #eeeeee;
   padding: 0 0 0 30px;
-  color: #252525;
+  color: #ffffff;
   height: 45px;
   -webkit-box-shadow: unset !important;
           box-shadow: unset !important;
@@ -7500,7 +7498,7 @@ Students Feedback Form CSS
   pointer-events: none;
   width: 100%;
   height: 100%;
-  color: #252525;
+  color: #ffffff;
 }
 
 .students-feedback-form form .form-group .label-title::before {
@@ -7552,7 +7550,7 @@ Students Feedback Form CSS
 }
 
 .feedback-form-inner {
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 5px 0 5px 5px;
   -webkit-box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
           box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
@@ -7669,7 +7667,7 @@ Blog CSS
   -webkit-transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   content: '';
-  background-color: #ffffff;
+  background-color:  #252525;
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -7700,7 +7698,7 @@ Blog CSS
 
 .single-blog-post .post-image .tag a {
   display: inline-block;
-  background-color: #ffffff;
+  background-color:  #252525;
   color: #0089c7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -7976,7 +7974,7 @@ Blog Details CSS
 
 .blog-details-desc .article-content .entry-meta ul li a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover, .blog-details-desc .article-content .entry-meta ul li a:focus {
@@ -8071,7 +8069,7 @@ Blog Details CSS
 
 .blog-details-desc .article-footer .article-tags span {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
   margin-right: 3px;
   position: relative;
   top: 3px;
@@ -8228,7 +8226,7 @@ Blog Details CSS
 }
 
 .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a {
-  color: #252525;
+  color: #ffffff;
   padding: 5px 12px 4px;
   border-radius: 2px;
   font-size: 14px;
@@ -8252,7 +8250,7 @@ blockquote, .blockquote {
 }
 
 blockquote p, .blockquote p {
-  color: #252525;
+  color: #ffffff;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -8388,7 +8386,7 @@ blockquote::after, .blockquote::after {
 }
 
 .prev-link-wrapper .prev-link-info-wrapper {
-  color: #252525;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -8496,7 +8494,7 @@ blockquote::after, .blockquote::after {
 .next-link-wrapper .next-link-info-wrapper {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #252525;
+  color: #ffffff;
 }
 
 .next-link-wrapper .next-title {
@@ -8544,7 +8542,7 @@ blockquote::after, .blockquote::after {
 .comments-area .comment-body {
   border-bottom: 1px dashed #eeeeee;
   padding-left: 65px;
-  color: #252525;
+  color: #ffffff;
   font-size: 14px;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -8556,7 +8554,7 @@ blockquote::after, .blockquote::after {
 
 .comments-area .comment-body .reply a {
   border: 1px dashed #ded9d9;
-  color: #252525;
+  color: #ffffff;
   display: inline-block;
   padding: 5px 20px;
   border-radius: 30px;
@@ -8867,7 +8865,7 @@ How It Works CSS
 }
 
 .single-work-process:hover .icon {
-  background-color: #ffffff;
+  background-color:  #252525;
   color: #0089c7;
   border-color: #ffffff;
 }
@@ -8897,7 +8895,7 @@ Pricing CSS
 }
 
 .pricing-table {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.05);
           box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.05);
 }
@@ -8927,7 +8925,7 @@ Pricing CSS
 
 .pricing-table table tbody td {
   vertical-align: middle;
-  color: #252525;
+  color: #ffffff;
   padding: 16px 20px;
   border-color: #eeeeee;
   font-size: 15px;
@@ -9077,7 +9075,7 @@ Events CSS
 .single-events-box {
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 5px;
 }
 
@@ -9334,7 +9332,7 @@ Events Details CSS
 
 .events-details-header .events-meta ul li a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
 }
 
 .events-details-header .events-meta ul li a:hover, .events-details-header .events-meta ul li a:focus {
@@ -9411,7 +9409,7 @@ Count Down CSS
 .countdown-content .sign-up-btn::before {
   content: '';
   position: absolute;
-  background-color: #ffffff;
+  background-color:  #252525;
   left: 0;
   bottom: 0;
   height: 1px;
@@ -9509,7 +9507,7 @@ Shop CSS
 }
 
 .woocommerce-topbar .topbar-ordering-and-search .topbar-ordering .nice-select .list {
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 0;
   -webkit-box-shadow: unset;
           box-shadow: unset;
@@ -9553,7 +9551,7 @@ Shop CSS
 
 .woocommerce-topbar .topbar-ordering-and-search .topbar-search form .input-search {
   height: 50px;
-  color: #252525;
+  color: #ffffff;
   background-color: #eef5f9;
   display: block;
   width: 100%;
@@ -9608,7 +9606,7 @@ Shop CSS
 
 .single-product-box {
   text-align: center;
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
 }
@@ -9642,7 +9640,7 @@ Shop CSS
   bottom: -45px;
   left: 0;
   width: 100%;
-  background-color: #252525;
+  background-color: #ffffff;
   color: #ffffff;
   padding: 18px 20px 13px;
   text-transform: uppercase;
@@ -9698,7 +9696,7 @@ Shop CSS
 }
 
 .single-product-box .product-content .price {
-  color: #252525;
+  color: #ffffff;
   font-weight: 500;
   font-size: 15px;
 }
@@ -9821,7 +9819,7 @@ Product Details CSS
 
 .product-details-desc .product-review .rating-count {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
   border-bottom: 1px solid #252525;
   line-height: initial;
   position: relative;
@@ -9839,7 +9837,7 @@ Product Details CSS
 
 .product-details-desc .product-meta span {
   display: block;
-  color: #252525;
+  color: #ffffff;
   margin-bottom: 8px;
   font-size: 15px;
   font-weight: 500;
@@ -9913,7 +9911,7 @@ Product Details CSS
 
 .product-details-desc .product-add-to-cart .input-counter input {
   height: 50px;
-  color: #252525;
+  color: #ffffff;
   outline: 0;
   display: block;
   border: none;
@@ -9925,19 +9923,19 @@ Product Details CSS
 }
 
 .product-details-desc .product-add-to-cart .input-counter input::-webkit-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input:-ms-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input::-ms-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input::placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .product-details-desc .product-add-to-cart .default-btn {
@@ -9987,7 +9985,7 @@ Product Details CSS
 .products-details-tab .tabs li a {
   display: inline-block;
   position: relative;
-  color: #252525;
+  color: #ffffff;
   border: 1px dashed #eeeeee;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -10092,7 +10090,7 @@ Product Details CSS
 .products-details-tab .tab-content .tabs-item .products-details-tab-content .additional-information li span {
   display: inline-block;
   width: 30%;
-  color: #252525;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -10314,7 +10312,7 @@ Cart CSS
 }
 
 .cart-table table tbody tr td.product-name a:hover {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-table table tbody tr td.product-subtotal .remove {
@@ -10361,7 +10359,7 @@ Cart CSS
 
 .cart-table table tbody tr td.product-quantity .input-counter input {
   height: 45px;
-  color: #252525;
+  color: #ffffff;
   outline: 0;
   display: block;
   border: none;
@@ -10373,19 +10371,19 @@ Cart CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-webkit-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-ms-input-placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-table table tbody tr td.product-subtotal {
@@ -10488,7 +10486,7 @@ Cart CSS
 .cart-totals ul li {
   border: 1px solid #eaedff;
   padding: 10px 15px;
-  color: #252525;
+  color: #ffffff;
   overflow: hidden;
   font-weight: 500;
 }
@@ -10503,7 +10501,7 @@ Cart CSS
 }
 
 .cart-totals ul li:last-child span {
-  color: #252525;
+  color: #ffffff;
 }
 
 .cart-totals ul li span {
@@ -10541,7 +10539,7 @@ Checkout CSS
 
 .user-actions span a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
 }
 
 .user-actions span a:hover, .user-actions span a:focus {
@@ -10593,7 +10591,7 @@ Checkout CSS
 }
 
 .billing-details .form-group .nice-select .list {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.1);
           box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.1);
   border-radius: 0;
@@ -10679,7 +10677,7 @@ Checkout CSS
 }
 
 .billing-details .form-check .form-check-label {
-  color: #252525;
+  color: #ffffff;
 }
 
 .billing-details .form-check label {
@@ -10746,17 +10744,17 @@ Checkout CSS
 }
 
 .order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
-  color: #252525;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
   font-weight: 600;
-  color: #252525;
+  color: #ffffff;
 }
 
 .order-details .payment-box {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   margin-top: 30px;
@@ -10771,7 +10769,7 @@ Checkout CSS
   padding-left: 27px;
   cursor: pointer;
   display: block;
-  color: #252525;
+  color: #ffffff;
   position: relative;
   margin-bottom: 8px;
   font-weight: 600;
@@ -10834,7 +10832,7 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers {
-  color: #252525;
+  color: #ffffff;
   display: inline-block;
   font-weight: 500;
   font-size: 19px;
@@ -10909,7 +10907,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_search form .search-field {
   height: 55px;
-  color: #252525;
+  color: #ffffff;
   background-color: #eef5f9;
   display: block;
   width: 100%;
@@ -11033,7 +11031,7 @@ Widget Sidebar CSS
   -webkit-transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   transition: all 0.8s cubic-bezier(0.2, 1, 0.22, 1);
   content: '';
-  background-color: #ffffff;
+  background-color:  #252525;
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -11096,7 +11094,7 @@ Widget Sidebar CSS
   position: relative;
   margin-bottom: 12px;
   overflow: hidden;
-  color: #252525;
+  color: #ffffff;
   padding-left: 18px;
   font-weight: 600;
   font-size: 14px;
@@ -11118,7 +11116,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li a {
-  color: #252525;
+  color: #ffffff;
   display: inline-block;
 }
 
@@ -11276,7 +11274,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_contact:hover .text .icon {
-  background-color: #ffffff;
+  background-color:  #252525;
   color: #0089c7;
   border-color: #ffffff;
 }
@@ -11300,7 +11298,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_events_details ul li span {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -11405,8 +11403,8 @@ Login CSS
 }
 
 .login-content .login-form form .form-control {
-  background-color: #ffffff;
-  color: #252525;
+  background-color:  #252525;
+  color: #ffffff;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -11604,8 +11602,8 @@ Register CSS
 }
 
 .register-content .register-form form .form-control {
-  background-color: #ffffff;
-  color: #252525;
+  background-color:  #252525;
+  color: #ffffff;
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -11755,7 +11753,7 @@ FAQ CSS
 }
 
 .faq-accordion-tab .tabs li a {
-  color: #252525;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
   padding: 20px;
@@ -11806,7 +11804,7 @@ FAQ CSS
 
 .faq-accordion .accordion .accordion-title {
   padding: 20px 25px 17px 60px;
-  color: #252525;
+  color: #ffffff;
   text-decoration: none;
   position: relative;
   display: block;
@@ -11928,7 +11926,7 @@ Coming Soon CSS
   pointer-events: none;
   width: 100%;
   height: 100%;
-  color: #252525;
+  color: #ffffff;
 }
 
 .coming-soon-content form .form-group .label-title i {
@@ -11958,7 +11956,7 @@ Coming Soon CSS
   border: none;
   border-bottom: 2px solid #eeeeee;
   padding: 0 0 0 32px;
-  color: #252525;
+  color: #ffffff;
   height: 45px;
   display: block;
   width: 100%;
@@ -12198,7 +12196,7 @@ Contact CSS
 }
 
 .contact-form {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   border-radius: 5px;
@@ -12311,7 +12309,7 @@ My Account CSS
   border-radius: 5px;
   -webkit-box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.04);
           box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.04);
-  background-color: #ffffff;
+  background-color:  #252525;
 }
 
 .myAccount-profile .profile-image img {
@@ -12348,7 +12346,7 @@ My Account CSS
   font-size: 18px;
   position: absolute;
   left: 0;
-  color: #252525;
+  color: #ffffff;
   top: 1px;
 }
 
@@ -12438,7 +12436,7 @@ My Account CSS
 .myAccount-navigation ul li a {
   display: block;
   padding: 9px 25px 9px 50px;
-  color: #252525;
+  color: #ffffff;
   border: 1px solid #eeeeee;
   position: relative;
   border-radius: 3px 3px 0 0;
@@ -12479,7 +12477,7 @@ My Account CSS
 }
 
 .myAccount-content p a:hover {
-  color: #252525;
+  color: #ffffff;
 }
 
 .myAccount-content h3 {
@@ -12498,7 +12496,7 @@ My Account CSS
   border: 1px solid #dee2e6;
   white-space: nowrap;
   padding: 13px 20px 12px;
-  color: #252525;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -12507,7 +12505,7 @@ My Account CSS
   vertical-align: middle;
   border: 1px solid #dee2e6;
   white-space: nowrap;
-  color: #252525;
+  color: #ffffff;
   padding: 13px 20px 12px;
 }
 
@@ -12534,7 +12532,7 @@ My Account CSS
   border: 1px solid #dee2e6;
   white-space: nowrap;
   padding: 13px 20px 12px;
-  color: #252525;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -12543,7 +12541,7 @@ My Account CSS
   vertical-align: middle;
   border: 1px solid #dee2e6;
   white-space: nowrap;
-  color: #252525;
+  color: #ffffff;
   padding: 13px 20px 12px;
 }
 
@@ -12570,7 +12568,7 @@ My Account CSS
   border: 1px solid #dee2e6;
   white-space: nowrap;
   padding: 13px 20px 12px;
-  color: #252525;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -12579,7 +12577,7 @@ My Account CSS
   vertical-align: middle;
   border: 1px solid #dee2e6;
   white-space: nowrap;
-  color: #252525;
+  color: #ffffff;
   padding: 13px 20px 12px;
 }
 
@@ -12602,7 +12600,7 @@ My Account CSS
 }
 
 .myAccount-content .edit-account {
-  background-color: #ffffff;
+  background-color:  #252525;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
   padding: 40px;
@@ -12642,12 +12640,12 @@ My Account CSS
 }
 
 .myAccount-content .edit-account .form-group .nice-select {
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 3px;
   height: 48px;
   border: solid 1px #e6e9fc;
   line-height: 48px;
-  color: #252525;
+  color: #ffffff;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 15px;
@@ -12656,13 +12654,13 @@ My Account CSS
 
 .myAccount-content .edit-account .form-group .nice-select span {
   font-size: 15px;
-  color: #252525;
+  color: #ffffff;
   display: block;
 }
 
 .myAccount-content .edit-account .form-group .nice-select .list {
   border: solid 1px #e6e9fc;
-  background-color: #ffffff;
+  background-color:  #252525;
   border-radius: 0;
   -webkit-box-shadow: unset;
           box-shadow: unset;
@@ -12865,7 +12863,7 @@ Footer CSS
   height: 30px;
   text-align: center;
   color: #0089c7;
-  background-color: #ffffff;
+  background-color:  #252525;
   font-size: 18px;
   position: relative;
   border-radius: 2px;

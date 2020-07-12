@@ -1,16 +1,14 @@
-var options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.3s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: true, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
-}
-
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
+$(document).ready(function(){
+  $('#mode').click(function(){
+  if($('link#styles').attr('href')=="assets/css/style.css"){
+  $('#mode').attr('value','Switch To Day Mode')
+  $('link#styles').attr('href','assets/css/darkmodestyle.css')
+  }
+  else
+  {
+  $('#mode').attr('value','Switch To Night Mode')
+  $('link#styles').attr('href','assets/css/style.css')
+  }
+  })
+  
+  });
