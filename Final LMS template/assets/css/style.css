@@ -75,6 +75,15 @@ a {
   transition: 0.5s;
   color: #252525;
 }
+.dropdown-menu4{
+  display: none;
+  position: absolute;
+  list-style: none;
+  left:195px;
+  width: 200px;
+  background: white;
+  
+}
 
 a:hover, a:focus {
   color: #0089c7;
@@ -226,7 +235,7 @@ img {
   display: inline-block;
   padding: 13px 25px 12px 55px;
   position: relative;
-  background: linear-gradient(90deg, #1CB5E0 0%, #071483 100%);
+  background: #0d59bb ;
   color: rgb(255, 255, 255);
   border-width: 2px;
   border-style: solid;
@@ -811,6 +820,10 @@ Header CSS
 
 .top-header-style-four .top-header-login-register li a {
   color: #ffffff;
+}
+
+.bottom-header {
+  background-color: rgb(13, 54, 236);
 }
 
 .raque-responsive-nav {
@@ -1928,7 +1941,7 @@ Search Overlay CSS
   color: #ffffff;
   height: 45px;
   border-radius: 50%;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border: none;
@@ -2586,7 +2599,7 @@ Main Banner CSS
   position: absolute;
   right: 5px;
   top: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -2719,7 +2732,7 @@ Main Banner CSS
   position: absolute;
   right: 5px;
   top: 5px;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -10965,7 +10978,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_search form button {
   border: none;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   height: 45px;
   width: 45px;
@@ -11460,7 +11473,7 @@ Login CSS
   width: 100%;
   padding: 13px 25px 12px 25px;
   position: relative;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
           box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
@@ -11502,7 +11515,7 @@ Login CSS
   width: 100%;
   position: relative;
   border: 1px solid #45d0d4;
-  background-color: transparent;
+  background: #0d59bb ;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 12px 30px;
@@ -11659,7 +11672,7 @@ Register CSS
   width: 100%;
   padding: 13px 25px 12px 25px;
   position: relative;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
           box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.2);
@@ -11693,7 +11706,7 @@ Register CSS
   width: 100%;
   position: relative;
   border: 1px solid #45d0d4;
-  background-color: transparent;
+  background: #0d59bb ;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 12px 30px;
@@ -12941,7 +12954,7 @@ Footer CSS
   margin-top: .9rem;
   width: 100%;
   border-radius: .25rem;
-  background:  linear-gradient(90deg, rgb(5, 2, 56) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #0d59bb ;
   color: #ffffff;
   border: none;
   padding: 12px 25px;
@@ -13053,5 +13066,14 @@ Go Top CSS
     left: 25px;
     top: 47%;
     transform: translateY(-47%);
+}
+.nav-item ul li:first-child:hover .dropdown-menu4{
+  display: block;
+  
+}
+
+.nav-item ul li:nth-child(2):hover .dropdown-menu4{
+  display: block;
+
 }
 /*# sourceMappingURL=style.css.map */
