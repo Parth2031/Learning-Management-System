@@ -1,22 +1,24 @@
 
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: blanchedalmond;
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
 }
 
 .myAccount-navigation ul li:nth-child(3):hover .dropdown-content {
-    display: block;
-}
-.myAccount-navigation ul li:nth-child(1):hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-.myAccount-navigation ul li a span {
-    font-size: 18px;
-    position: absolute;
-    left: 25px;
-    top: 47%;
-    transform: translateY(-47%);
+.myAccount-navigation ul li:nth-child(1):hover .dropdown-content {
+  display: block;
+}
+
+.myAccount-navigation ul li a span 
+{
+  font-size: 18px;
+  position: absolute;
+  left: 25px;
+  top: 47%;
+  transform: translateY(-47%);
 }
